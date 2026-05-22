@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "savedAt": "2026-05-13T15:17:41.022Z",
+  "characterPlayground": {
+    "walkSpeed": 215,
+    "runSpeed": 385,
+    "jumpSpeed": 720,
+    "gravity": 1680,
+    "characterScale": 0.65,
+    "characterVariant": "snap",
+    "useCharacterSprite": true,
+    "usePlatformSprites": true,
+    "showHitboxes": false,
+    "turretActive": true,
+    "turretHealth": 3,
+    "turretCooldownSeconds": 1.4,
+    "turretProjectileSpeed": 315,
+    "turretShootingRange": 620,
+    "turretProjectileDamage": 1,
+    "scavengerActive": true,
+    "scavengerHealth": 5,
+    "scavengerPatrolSpeed": 55,
+    "scavengerChaseSpeed": 115,
+    "scavengerSightRange": 420,
+    "scavengerAttackRange": 72,
+    "scavengerAttackCooldownSeconds": 1.05,
+    "scavengerKnockback": 360
+  }
+}

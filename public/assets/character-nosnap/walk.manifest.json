@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "action": "walk",
+  "direction": "w",
+  "mode": "video",
+  "spritesheet": "walk.png",
+  "previewGif": "walk.gif",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 5,
+  "rows": 2,
+  "frames": 10,
+  "fps": 10,
+  "anchor": {
+    "x": 128,
+    "y": 255
+  },
+  "sourceRun": "runs/robin-chute-v3-wan25-walk-w-01",
+  "pixelSnap": false,
+  "sourceDetail": "process-selection --preserve-motion --no-pixel-snap from selected WAN 2.5 walk frames",
+  "runtimeFinalization": {
+    "anchorPolicy": "grounded",
+    "requestedAnchorPolicy": "auto",
+    "targetBottomY": 255,
+    "targetCenterX": 128,
+    "framesAdjusted": 10,
+    "report": "finalize-runtime.json"
+  },
+  "sourceManifest": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/walk/manifest.json"
+}

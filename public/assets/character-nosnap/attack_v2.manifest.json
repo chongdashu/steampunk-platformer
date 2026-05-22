@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "action": "attack_v2",
+  "direction": "w",
+  "mode": "video",
+  "spritesheet": "spritesheet.png",
+  "previewGif": "preview.gif",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 5,
+  "rows": 2,
+  "frames": 8,
+  "fps": 10,
+  "anchor": {
+    "x": 128,
+    "y": 255
+  },
+  "sourceRun": "runs/20260520-player-attack-fist-grok-i2v-v6-preserve-canvas",
+  "pixelSnap": false,
+  "sourceDetail": "Grok Imagine i2v fist punch, preserve-canvas + chroma-only cleanup from resnap-02 W anchor",
+  "runtimeFinalization": {
+    "anchorPolicy": "grounded",
+    "requestedAnchorPolicy": "auto",
+    "targetBottomY": 255,
+    "targetCenterX": 128,
+    "framesAdjusted": 8,
+    "report": "finalize-runtime.json"
+  },
+  "publicAssetReady": true
+}

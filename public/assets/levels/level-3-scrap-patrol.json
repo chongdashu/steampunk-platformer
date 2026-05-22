@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "level-3-scrap-patrol",
+  "title": "Scrap Patrol",
+  "width": 5200,
+  "height": 720,
+  "backgroundSet": "v2",
+  "surfaceY": 548,
+  "playerStart": { "x": 180, "y": 548 },
+  "sections": [
+    { "id": "patrol", "label": "Patrol", "start": 0, "end": 2300, "intent": "first scavenger pressure on the same level" },
+    { "id": "crossfire", "label": "Crossfire", "start": 2300, "end": 3900, "intent": "turret controls the route to two scrap pickups" },
+    { "id": "exit", "label": "Exit Stretch", "start": 3900, "end": 5200, "intent": "final scrap pickup and chute" }
+  ],
+  "platforms": [
+    { "id": "p-000", "frame": "ground_long_mossy_wall", "x": -180, "y": 548 },
+    { "id": "p-001", "frame": "ground_long_mossy_wall", "x": 230, "y": 548 },
+    { "id": "p-002", "frame": "ground_long_mossy_wall", "x": 650, "y": 548 },
+    { "id": "p-003", "frame": "ground_medium_mossy", "x": 1070, "y": 548 },
+    { "id": "p-004", "frame": "ground_long_mossy_wall", "x": 1330, "y": 548 },
+    { "id": "p-005", "frame": "ground_long_mossy_wall", "x": 1750, "y": 548 },
+    { "id": "p-006", "frame": "ground_long_mossy_wall", "x": 2170, "y": 548 },
+    { "id": "p-007", "frame": "ground_medium_mossy", "x": 2590, "y": 548 },
+    { "id": "p-008", "frame": "ground_long_mossy_wall", "x": 2850, "y": 548 },
+    { "id": "p-009", "frame": "ground_long_mossy_wall", "x": 3270, "y": 548 },
+    { "id": "p-010", "frame": "ground_long_mossy_wall", "x": 3690, "y": 548 },
+    { "id": "p-011", "frame": "ground_medium_mossy", "x": 4110, "y": 548 },
+    { "id": "p-012", "frame": "ground_long_mossy_wall", "x": 4370, "y": 548 },
+    { "id": "p-upper-00", "frame": "platform_medium_ledge", "x": 2960, "y": 408 }
+  ],
+  "pickups": [
+    { "id": "gear-01", "frame": "pickup_gear_small", "x": 740, "y": 476, "value": 1 },
+    { "id": "gear-02", "frame": "pickup_gear_small", "x": 1510, "y": 476, "value": 1 },
+    { "id": "gear-03", "frame": "pickup_gear_small", "x": 3060, "y": 336, "value": 1 },
+    { "id": "gear-04", "frame": "pickup_gear_small", "x": 3460, "y": 476, "value": 1 },
+    { "id": "gear-05", "frame": "pickup_gear_small", "x": 4540, "y": 476, "value": 1 }
+  ],
+  "props": [
+    { "id": "prop-pipes-01", "frame": "prop_steam_pipe_stack", "x": 2360, "y": 548, "depth": 20 },
+    { "id": "prop-fence-01", "frame": "prop_fence_segment", "x": 4100, "y": 548, "depth": 18 }
+  ],
+  "enemies": [
+    { "id": "scavenger-01", "type": "scavenger-bot", "x": 1680, "y": 548, "health": 5, "cooldownSeconds": 1.05, "projectileSpeed": 315, "shootingRange": 420, "projectileDamage": 1 },
+    { "id": "turret-01", "type": "pipe-spitting-turret", "x": 3400, "y": 548, "health": 3, "cooldownSeconds": 1.35, "projectileSpeed": 335, "shootingRange": 650, "projectileDamage": 1 }
+  ],
+  "exits": [{ "id": "exit-1", "frame": "exit_chute", "x": 4960, "y": 548 }],
+  "finish": { "x": 4960, "y": 548 }
+}

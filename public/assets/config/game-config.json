@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "savedAt": "2026-05-21T00:00:00.000Z",
+  "gameConfig": {
+    "walkSpeed": 180,
+    "runSpeed": 300,
+    "jumpSpeed": 720,
+    "gravity": 1680,
+    "characterScale": 0.72,
+    "characterVariant": "snap",
+    "turretHealth": 3,
+    "turretCooldownSeconds": 1.4,
+    "turretProjectileSpeed": 315,
+    "turretShootingRange": 620,
+    "turretProjectileDamage": 1,
+    "scavengerHealth": 5,
+    "scavengerPatrolSpeed": 55,
+    "scavengerChaseSpeed": 115,
+    "scavengerSightRange": 420,
+    "scavengerAttackRange": 72,
+    "scavengerAttackCooldownSeconds": 1.05,
+    "scavengerKnockback": 480,
+    "backgroundSet": "v2",
+    "backgroundLayers": {
+      "sky": true,
+      "far": true,
+      "mid": true,
+      "near": true
+    },
+    "backgroundLayerOffsets": {
+      "v1": {
+        "far": 0,
+        "mid": 0,
+        "near": 0
+      },
+      "v2": {
+        "sky": 0,
+        "far": 0,
+        "mid": 120
+      }
+    }
+  }
+}

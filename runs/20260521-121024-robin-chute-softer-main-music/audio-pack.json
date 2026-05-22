@@ -1,0 +1,24 @@
+{
+  "id": "robin-chute-softer-main-music-v2",
+  "createdAt": "2026-05-21T12:10:24+01:00",
+  "theme": "rubbish-theme whimsical steampunk 2D pixel-art platformer, softer and less sharp than the first music pass",
+  "provider": "ElevenLabs",
+  "outputFormat": "mp3_44100_128",
+  "publicOutputRoot": "public/assets",
+  "assetsIndexPath": "public/assets/index.json",
+  "music": [
+    {
+      "id": "music-main-scrapyard-loop",
+      "key": "music-main-scrapyard-loop",
+      "path": "music/main-scrapyard-loop.mp3",
+      "durationSeconds": 45,
+      "volume": 0.42,
+      "loop": true,
+      "usage": "Softer main game and playground backing loop replacing the sharper v1 track",
+      "prompt": "Seamlessly loopable soft whimsical steampunk scrapyard adventure music for a 2D pixel-art platformer. Gentle warm marimba and muted pizzicato strings, soft brushed percussion, rounded tuba pulses, mellow accordion pads, tiny clockwork ticks kept quiet in the background. Cozy, curious, playful, and slightly mischievous, but smooth and non-sharp. Avoid bright piercing bells, harsh chiptune leads, shrill whistles, hard transients, cymbal crashes, trailer drums, vocals, and busy high-frequency melodies. Designed to sit under platforming gameplay for a long time without fatigue."
+    }
+  ],
+  "notes": [
+    "The original sharper track was preserved at public/assets/music/main-scrapyard-loop-sharp-v1.mp3 before this replacement was generated."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "enemyId": "scavenger-bot",
+  "variant": "action-generated",
+  "displayName": "Scavenger Bot",
+  "direction": "w",
+  "frame": {
+    "width": 256,
+    "height": 256
+  },
+  "anchor": {
+    "x": 128,
+    "y": 255
+  },
+  "source": "runs/20260518-212924-scavenger-bot-w-anchor-v2",
+  "generation": "Image-generated action pose boards, processed through Spriterrific runtime export.",
+  "missingAnimations": [
+    "idle",
+    "walk",
+    "run"
+  ],
+  "animations": {
+    "attack": {
+      "spritesheet": "action-generated/attack.png",
+      "previewGif": "action-generated/attack.gif",
+      "frames": 8,
+      "fps": 10,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v1/attack-w-image/export",
+      "sourceDetail": "Image/action-board export processed through Spriterrific.",
+      "pixelSnap": false,
+      "anchor": {
+        "x": 128,
+        "y": 255
+      },
+      "promotionStatus": "comparison-ready",
+      "publicAssetReady": true
+    },
+    "hurt": {
+      "spritesheet": "action-generated/hurt.png",
+      "previewGif": "action-generated/hurt.gif",
+      "frames": 6,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v1/hurt-w-image/export",
+      "sourceDetail": "Image/action-board export processed through Spriterrific.",
+      "pixelSnap": false,
+      "anchor": {
+        "x": 128,
+        "y": 255
+      },
+      "promotionStatus": "comparison-ready",
+      "publicAssetReady": true
+    },
+    "death": {
+      "spritesheet": "action-generated/death.png",
+      "previewGif": "action-generated/death.gif",
+      "frames": 10,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v1/death-w-image/export",
+      "sourceDetail": "Image/action-board export processed through Spriterrific.",
+      "pixelSnap": false,
+      "anchor": {
+        "x": 128,
+        "y": 255
+      },
+      "promotionStatus": "comparison-ready",
+      "publicAssetReady": true
+    },
+    "jump": {
+      "spritesheet": "action-generated/jump.png",
+      "previewGif": "action-generated/jump.gif",
+      "frames": 6,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v1/jump-w-image/export",
+      "sourceDetail": "Image/action-board export processed through Spriterrific.",
+      "pixelSnap": false,
+      "anchor": {
+        "x": 128,
+        "y": 255
+      },
+      "promotionStatus": "comparison-ready",
+      "publicAssetReady": true
+    }
+  },
+  "promotionStatus": "comparison-ready",
+  "publicAssetReady": true
+}

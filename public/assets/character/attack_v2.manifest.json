@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "action": "attack_v2",
+  "direction": "w",
+  "mode": "video",
+  "spritesheet": "attack_v2.png",
+  "previewGif": "attack_v2.gif",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 5,
+  "rows": 2,
+  "frames": 8,
+  "fps": 10,
+  "anchor": {
+    "x": 128,
+    "y": 255
+  },
+  "sourceRun": "runs/20260520-player-attack-fist-grok-i2v-v9-fit-foreground-pixel-snap-fringe",
+  "pixelSnap": true,
+  "pixelSnapKColors": 64,
+  "sourceDetail": "Grok i2v fist punch; fit-foreground height normalize + pixel-snap k64 + chroma/fringe cleanup",
+  "runtimeFinalization": {
+    "anchorPolicy": "grounded",
+    "requestedAnchorPolicy": "grounded",
+    "targetBottomY": 255,
+    "targetCenterX": 128,
+    "framesAdjusted": 8,
+    "report": "finalize-runtime.json"
+  },
+  "publicAssetReady": true,
+  "layoutMode": "fit-foreground"
+}

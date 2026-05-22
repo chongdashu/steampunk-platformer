@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "savedAt": "2026-05-20T08:55:43.045Z",
+  "backgroundLayerOffsets": {
+    "v1": {
+      "far": 0,
+      "mid": 0,
+      "near": 0
+    },
+    "v2": {
+      "sky": 0,
+      "far": -100,
+      "mid": 40
+    }
+  }
+}

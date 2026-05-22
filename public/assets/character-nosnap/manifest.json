@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "characterId": "robinchute-char-nosnap",
+  "baseCharacterId": "robinchute-char",
+  "displayName": "Robin Chute No-Snap",
+  "variant": "non-pixel-snapped",
+  "direction": "w",
+  "frame": {
+    "width": 256,
+    "height": 256
+  },
+  "anchor": {
+    "x": 128,
+    "y": 255
+  },
+  "source": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets",
+  "review": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/review/index.md",
+  "phaser": {
+    "basePath": "assets/robinchute-char-nosnap",
+    "loader": "spritesheet",
+    "frameConfig": {
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "spacing": 0,
+      "margin": 0
+    }
+  },
+  "animations": {
+    "idle": {
+      "spritesheet": "idle.png",
+      "previewGif": "idle.gif",
+      "frames": 10,
+      "fps": 6,
+      "columns": 5,
+      "rows": 2,
+      "repeat": -1,
+      "source": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/idle",
+      "sourceRun": "runs/robin-chute-v3-wan25-idle-w-01",
+      "sourceDetail": "process-selection --no-pixel-snap from selected WAN 2.5 idle frames",
+      "pixelSnap": false,
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 10,
+        "report": "finalize-runtime.json"
+      },
+      "manifest": "idle.manifest.json"
+    },
+    "walk": {
+      "spritesheet": "walk.png",
+      "previewGif": "walk.gif",
+      "frames": 10,
+      "fps": 10,
+      "columns": 5,
+      "rows": 2,
+      "repeat": -1,
+      "source": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/walk",
+      "sourceRun": "runs/robin-chute-v3-wan25-walk-w-01",
+      "sourceDetail": "process-selection --preserve-motion --no-pixel-snap from selected WAN 2.5 walk frames",
+      "pixelSnap": false,
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 10,
+        "report": "finalize-runtime.json"
+      },
+      "manifest": "walk.manifest.json"
+    },
+    "run": {
+      "spritesheet": "run.png",
+      "previewGif": "run.gif",
+      "frames": 10,
+      "fps": 12,
+      "columns": 5,
+      "rows": 2,
+      "repeat": -1,
+      "source": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/run",
+      "sourceRun": "runs/robin-chute-v3-run-from-resnap-02-k16/frame-picker/20260513-121448",
+      "sourceDetail": "process-selection --preserve-motion --no-pixel-snap from curated WAN 2.7 run picker frames",
+      "pixelSnap": false,
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 10,
+        "report": "finalize-runtime.json"
+      },
+      "manifest": "run.manifest.json"
+    },
+    "attack": {
+      "spritesheet": "attack.png",
+      "previewGif": "attack.gif",
+      "frames": 4,
+      "fps": 10,
+      "columns": 5,
+      "rows": 1,
+      "repeat": 0,
+      "source": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/attack",
+      "sourceRun": "runs/robin-chute-v3-stills-from-resnap-02-k16/attack-w/generated/sheet.png",
+      "sourceDetail": "image pose-board rebuild without pixel snap, curated frames 2,3,5,6",
+      "pixelSnap": false,
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 0,
+        "report": "finalize-runtime.json"
+      },
+      "manifest": "attack.manifest.json",
+      "curation": {
+        "selectedFrames": [
+          2,
+          3,
+          5,
+          6
+        ]
+      }
+    },
+    "attack_v2": {
+      "spritesheet": "attack_v2.png",
+      "previewGif": "attack_v2.gif",
+      "frames": 8,
+      "fps": 10,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260520-player-attack-fist-grok-i2v-v6-preserve-canvas/export",
+      "sourceRun": "runs/20260520-player-attack-fist-grok-i2v-v6-preserve-canvas",
+      "sourceDetail": "Grok Imagine i2v closed-fist punch; preserve-canvas post-selection with chroma threshold 50 and no green-fringe cleanup (non-pixel-snapped branch)",
+      "pixelSnap": false,
+      "pixelSnapBranch": "runs/20260520-player-attack-fist-grok-i2v-v9-fit-foreground-pixel-snap-fringe",
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 8,
+        "report": "finalize-runtime.json"
+      },
+      "manifest": "attack_v2.manifest.json"
+    },
+    "hurt": {
+      "spritesheet": "hurt.png",
+      "previewGif": "hurt.gif",
+      "frames": 6,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/hurt",
+      "sourceRun": "runs/robin-chute-v3-stills-from-resnap-02-k16/hurt-w/generated/sheet.png",
+      "sourceDetail": "image pose-board rebuild from existing raw sheet without pixel snap",
+      "pixelSnap": false,
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 0,
+        "report": "finalize-runtime.json"
+      },
+      "manifest": "hurt.manifest.json"
+    },
+    "jump": {
+      "spritesheet": "jump.png",
+      "previewGif": "jump.gif",
+      "frames": 6,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/jump",
+      "sourceRun": "runs/robin-chute-v3-stills-from-resnap-02-k16/jump-w/generated/sheet.png",
+      "sourceDetail": "image pose-board rebuild from existing raw sheet without pixel snap",
+      "pixelSnap": false,
+      "runtimeFinalization": {
+        "anchorPolicy": "preserve-motion",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 0,
+        "report": "finalize-runtime.json"
+      },
+      "manifest": "jump.manifest.json"
+    },
+    "death": {
+      "spritesheet": "death.png",
+      "previewGif": "death.gif",
+      "frames": 5,
+      "fps": 8,
+      "columns": 5,
+      "rows": 1,
+      "repeat": 0,
+      "source": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/death",
+      "sourceRun": "runs/robin-chute-v3-death-from-resnap-02-k16-retry-01/generated/sheet.png",
+      "sourceDetail": "image pose-board retry rebuild without pixel snap, curated frames 2,5,6,7,8",
+      "pixelSnap": false,
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 0,
+        "report": "finalize-runtime.json"
+      },
+      "manifest": "death.manifest.json",
+      "curation": {
+        "selectedFrames": [
+          2,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "enter_chute": {
+      "spritesheet": "enter_chute.png",
+      "previewGif": "enter_chute.gif",
+      "frames": 6,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "direction": "n",
+      "source": "runs/20260519-robin-enter-chute-grok-i2v-v1/post-cleanup/export",
+      "sourceRun": "runs/20260519-robin-enter-chute-grok-i2v-v1",
+      "sourceDetail": "Grok Imagine i2v finish-enter motion from snapped back-facing anchor; runtime frames are not pixel-snapped.",
+      "pixelSnap": false,
+      "anchorSource": "runs/20260519-robin-back-anchor-v1/anchors/n/anchor-snapped-1024-chroma.png",
+      "cleanup": "runs/20260519-robin-enter-chute-grok-i2v-v1/post-cleanup/cleanup-report.json",
+      "manifest": "enter_chute.manifest.json"
+    }
+  }
+}

@@ -1,0 +1,899 @@
+{
+  "version": 3,
+  "savedAt": "2026-05-21T12:17:14.373Z",
+  "characterId": "robinchute-char",
+  "bounds": {
+    "idle": {
+      "visual": {
+        "x": 73,
+        "y": 48,
+        "width": 96,
+        "height": 208
+      },
+      "collision": {
+        "x": 96,
+        "y": 76,
+        "width": 52,
+        "height": 172
+      },
+      "attack": {
+        "x": 70,
+        "y": 84,
+        "width": 76,
+        "height": 62
+      }
+    },
+    "walk": {
+      "visual": {
+        "x": 73,
+        "y": 48,
+        "width": 96,
+        "height": 208
+      },
+      "collision": {
+        "x": 96,
+        "y": 56,
+        "width": 52,
+        "height": 200
+      },
+      "attack": {
+        "x": 70,
+        "y": 84,
+        "width": 76,
+        "height": 62
+      }
+    },
+    "run": {
+      "visual": {
+        "x": 73,
+        "y": 48,
+        "width": 96,
+        "height": 208
+      },
+      "collision": {
+        "x": 96,
+        "y": 56,
+        "width": 52,
+        "height": 200
+      },
+      "attack": {
+        "x": 70,
+        "y": 84,
+        "width": 76,
+        "height": 62
+      }
+    },
+    "attack": {
+      "visual": {
+        "x": 73,
+        "y": 48,
+        "width": 96,
+        "height": 208
+      },
+      "collision": {
+        "x": 96,
+        "y": 56,
+        "width": 52,
+        "height": 200
+      },
+      "attack": {
+        "x": 70,
+        "y": 84,
+        "width": 76,
+        "height": 62
+      }
+    },
+    "attack_v2": {
+      "visual": {
+        "x": 58,
+        "y": 34,
+        "width": 116,
+        "height": 188
+      },
+      "collision": {
+        "x": 96,
+        "y": 50,
+        "width": 52,
+        "height": 206
+      },
+      "attack": {
+        "x": 0,
+        "y": 70,
+        "width": 150,
+        "height": 82
+      }
+    },
+    "hurt": {
+      "visual": {
+        "x": 73,
+        "y": 48,
+        "width": 96,
+        "height": 208
+      },
+      "collision": {
+        "x": 96,
+        "y": 56,
+        "width": 52,
+        "height": 200
+      },
+      "attack": {
+        "x": 70,
+        "y": 84,
+        "width": 76,
+        "height": 62
+      }
+    },
+    "jump": {
+      "visual": {
+        "x": 73,
+        "y": 48,
+        "width": 96,
+        "height": 208
+      },
+      "collision": {
+        "x": 96,
+        "y": 56,
+        "width": 52,
+        "height": 200
+      },
+      "attack": {
+        "x": 70,
+        "y": 84,
+        "width": 76,
+        "height": 62
+      }
+    },
+    "death": {
+      "visual": {
+        "x": 73,
+        "y": 48,
+        "width": 96,
+        "height": 208
+      },
+      "collision": {
+        "x": 43,
+        "y": 48,
+        "width": 168,
+        "height": 195
+      },
+      "attack": {
+        "x": 70,
+        "y": 84,
+        "width": 76,
+        "height": 62
+      }
+    },
+    "enter_chute": {
+      "visual": {
+        "x": 58,
+        "y": 34,
+        "width": 116,
+        "height": 188
+      },
+      "collision": {
+        "x": 96,
+        "y": 82,
+        "width": 52,
+        "height": 134
+      },
+      "attack": {
+        "x": 70,
+        "y": 84,
+        "width": 76,
+        "height": 62
+      }
+    }
+  },
+  "variants": {
+    "snap": {
+      "idle": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 96,
+          "y": 76,
+          "width": 52,
+          "height": 172
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "walk": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 96,
+          "y": 56,
+          "width": 52,
+          "height": 200
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "run": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 96,
+          "y": 56,
+          "width": 52,
+          "height": 200
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "attack": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 96,
+          "y": 56,
+          "width": 52,
+          "height": 200
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "attack_v2": {
+        "visual": {
+          "x": 58,
+          "y": 34,
+          "width": 116,
+          "height": 188
+        },
+        "collision": {
+          "x": 96,
+          "y": 50,
+          "width": 52,
+          "height": 206
+        },
+        "attack": {
+          "x": 0,
+          "y": 70,
+          "width": 150,
+          "height": 82
+        }
+      },
+      "hurt": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 96,
+          "y": 56,
+          "width": 52,
+          "height": 200
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "jump": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 96,
+          "y": 56,
+          "width": 52,
+          "height": 200
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "death": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 43,
+          "y": 48,
+          "width": 168,
+          "height": 195
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "enter_chute": {
+        "visual": {
+          "x": 58,
+          "y": 34,
+          "width": 116,
+          "height": 188
+        },
+        "collision": {
+          "x": 96,
+          "y": 82,
+          "width": 52,
+          "height": 134
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      }
+    },
+    "nosnap": {
+      "idle": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 96,
+          "y": 56,
+          "width": 52,
+          "height": 190
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "walk": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 96,
+          "y": 56,
+          "width": 52,
+          "height": 200
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "run": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 96,
+          "y": 56,
+          "width": 52,
+          "height": 200
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "attack": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 96,
+          "y": 56,
+          "width": 52,
+          "height": 200
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "attack_v2": {
+        "visual": {
+          "x": 58,
+          "y": 34,
+          "width": 116,
+          "height": 188
+        },
+        "collision": {
+          "x": 96,
+          "y": 82,
+          "width": 52,
+          "height": 134
+        },
+        "attack": {
+          "x": 0,
+          "y": 70,
+          "width": 150,
+          "height": 82
+        }
+      },
+      "hurt": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 96,
+          "y": 56,
+          "width": 52,
+          "height": 200
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "jump": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 96,
+          "y": 56,
+          "width": 52,
+          "height": 200
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "death": {
+        "visual": {
+          "x": 73,
+          "y": 48,
+          "width": 96,
+          "height": 208
+        },
+        "collision": {
+          "x": 43,
+          "y": 48,
+          "width": 168,
+          "height": 195
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      },
+      "enter_chute": {
+        "visual": {
+          "x": 58,
+          "y": 34,
+          "width": 116,
+          "height": 188
+        },
+        "collision": {
+          "x": 96,
+          "y": 82,
+          "width": 52,
+          "height": 134
+        },
+        "attack": {
+          "x": 70,
+          "y": 84,
+          "width": 76,
+          "height": 62
+        }
+      }
+    }
+  },
+  "fps": {
+    "idle": 6,
+    "walk": 10,
+    "run": 12,
+    "attack": 10,
+    "attack_v2": 18,
+    "hurt": 8,
+    "jump": 8,
+    "death": 8,
+    "enter_chute": 8
+  },
+  "fpsByVariant": {
+    "snap": {
+      "idle": 6,
+      "walk": 10,
+      "run": 12,
+      "attack": 10,
+      "attack_v2": 18,
+      "hurt": 8,
+      "jump": 8,
+      "death": 8,
+      "enter_chute": 8
+    },
+    "nosnap": {
+      "idle": 6,
+      "walk": 10,
+      "run": 12,
+      "attack": 10,
+      "attack_v2": 10,
+      "hurt": 8,
+      "jump": 8,
+      "death": 8,
+      "enter_chute": 8
+    }
+  },
+  "hitFrames": {
+    "idle": {
+      "attack": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "walk": {
+      "attack": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "run": {
+      "attack": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "attack": {
+      "attack": [
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    "attack_v2": {
+      "attack": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "hurt": {
+      "attack": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "jump": {
+      "attack": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "death": {
+      "attack": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "enter_chute": {
+      "attack": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  },
+  "hitFramesByVariant": {
+    "snap": {
+      "idle": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "walk": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "run": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "attack": {
+        "attack": [
+          false,
+          true,
+          true,
+          false
+        ]
+      },
+      "attack_v2": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "hurt": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "jump": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "death": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "enter_chute": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "nosnap": {
+      "idle": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "walk": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "run": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "attack": {
+        "attack": [
+          false,
+          true,
+          true,
+          false
+        ]
+      },
+      "attack_v2": {
+        "attack": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "hurt": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "jump": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "death": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "enter_chute": {
+        "attack": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+}

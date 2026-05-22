@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "characterId": "robinchute-char",
+  "displayName": "Robin Chute",
+  "direction": "w",
+  "frame": {
+    "width": 256,
+    "height": 256
+  },
+  "anchor": {
+    "x": 128,
+    "y": 255
+  },
+  "phaser": {
+    "basePath": "assets/robinchute-char",
+    "loader": "spritesheet",
+    "frameConfig": {
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "spacing": 0,
+      "margin": 0
+    }
+  },
+  "animations": {
+    "idle": {
+      "spritesheet": "idle.png",
+      "previewGif": "idle.gif",
+      "frames": 10,
+      "fps": 6,
+      "columns": 5,
+      "rows": 2,
+      "repeat": -1,
+      "source": "runs/robin-chute-v3-wan25-idle-w-01/post-selection/idle-pixel-snap-k32-01/export",
+      "finalizedSource": "runs/robin-chute-v3-public-final-export-01/idle",
+      "generation": "wan-2.5",
+      "pixelSnapKColors": 32,
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 10,
+        "report": "runs/robin-chute-v3-public-final-export-01/idle/finalize-runtime.json"
+      },
+      "frameAlignment": {
+        "source": "runs/robin-chute-v3-public-final-export-01/idle_v2-frame-aligner-input/frames-256x256",
+        "output": "runs/robin-chute-v3-public-final-export-01/idle_v2-frame-aligner-01",
+        "spritesheet": "runs/robin-chute-v3-public-final-export-01/idle_v2-frame-aligner-01/spritesheet-256x256-5x2.png",
+        "previewGif": "runs/robin-chute-v3-public-final-export-01/idle_v2-frame-aligner-01/review/preview-10f-256x256.gif",
+        "report": "runs/robin-chute-v3-public-final-export-01/idle_v2-frame-aligner-01/report.md",
+        "offsets": [
+          {
+            "frame": "frame-01.png",
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "frame": "frame-02.png",
+            "dx": 3,
+            "dy": 0
+          },
+          {
+            "frame": "frame-03.png",
+            "dx": 4,
+            "dy": 0
+          },
+          {
+            "frame": "frame-04.png",
+            "dx": 5,
+            "dy": 0
+          },
+          {
+            "frame": "frame-05.png",
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "frame": "frame-06.png",
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "frame": "frame-07.png",
+            "dx": 5,
+            "dy": 0
+          },
+          {
+            "frame": "frame-08.png",
+            "dx": 6,
+            "dy": 0
+          },
+          {
+            "frame": "frame-09.png",
+            "dx": 4,
+            "dy": 0
+          },
+          {
+            "frame": "frame-10.png",
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "exportName": "idle"
+    },
+    "walk": {
+      "spritesheet": "walk.png",
+      "previewGif": "walk.gif",
+      "frames": 10,
+      "fps": 10,
+      "columns": 5,
+      "rows": 2,
+      "repeat": -1,
+      "source": "runs/robin-chute-v3-wan25-walk-w-01/post-selection/walk-pixel-snap-k32-preserve-01/export",
+      "finalizedSource": "runs/robin-chute-v3-public-final-export-01/walk",
+      "generation": "wan-2.5",
+      "pixelSnapKColors": 32,
+      "curation": "settled window 61:86",
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 10,
+        "report": "runs/robin-chute-v3-public-final-export-01/walk/finalize-runtime.json"
+      },
+      "scaleNormalization": {
+        "targetAverageHeight": 210,
+        "sourceAverageHeight": 172.0,
+        "scale": 1.22093,
+        "resample": "NEAREST",
+        "report": "runs/robin-chute-v3-public-final-export-01/walk/scale-normalization.json",
+        "review": "runs/robin-chute-v3-public-final-export-01/walk/scale-normalization-review/walk-before-after-scale.png"
+      }
+    },
+    "run": {
+      "spritesheet": "run.png",
+      "previewGif": "run.gif",
+      "frames": 10,
+      "fps": 12,
+      "columns": 5,
+      "rows": 2,
+      "repeat": -1,
+      "source": "runs/robin-chute-v3-public-curation-fixes-02/run-curated-02-height-match-stills-01/export",
+      "finalizedSource": "runs/robin-chute-v3-public-final-export-01/run",
+      "pixelSnapKColors": 32,
+      "curation": {
+        "selectedOrder": "frame-0046.png,frame-0048.png,frame-0050.png,frame-0052.png,frame-0055.png,frame-0057.png,frame-0059.png,frame-0061.png,frame-0063.png,frame-0065.png"
+      },
+      "heightMatch": {
+        "targetAverageHeight": 210,
+        "sourceAverageHeight": 166.2,
+        "scale": 1.2635
+      },
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 0,
+        "report": "runs/robin-chute-v3-public-final-export-01/run/finalize-runtime.json"
+      }
+    },
+    "attack": {
+      "spritesheet": "attack.png",
+      "previewGif": "attack.gif",
+      "frames": 4,
+      "fps": 10,
+      "columns": 4,
+      "rows": 1,
+      "repeat": 0,
+      "source": "runs/robin-chute-v3-public-curation-fixes-01/attack-curated-frames-02-03-05-06/export",
+      "finalizedSource": "runs/robin-chute-v3-public-final-export-01/attack",
+      "curation": {
+        "selectedFrames": [
+          2,
+          3,
+          5,
+          6
+        ]
+      },
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 0,
+        "report": "runs/robin-chute-v3-public-final-export-01/attack/finalize-runtime.json"
+      },
+      "scaleNormalization": {
+        "targetAverageHeight": 210,
+        "sourceAverageHeight": 171.0,
+        "scale": 1.22807,
+        "resample": "NEAREST",
+        "report": "runs/robin-chute-v3-public-final-export-01/attack/scale-normalization.json",
+        "review": "runs/robin-chute-v3-public-final-export-01/attack/scale-normalization-review/attack-before-after-scale.png"
+      }
+    },
+    "attack_v2": {
+      "spritesheet": "attack_v2.png",
+      "previewGif": "attack_v2.gif",
+      "frames": 8,
+      "fps": 10,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260520-player-attack-fist-grok-i2v-v9-fit-foreground-pixel-snap-fringe/export",
+      "sourceRun": "runs/20260520-player-attack-fist-grok-i2v-v9-fit-foreground-pixel-snap-fringe",
+      "sourceDetail": "Grok Imagine i2v closed-fist punch; fit-foreground normalize (target height 210) + pixel-snap k64 + chroma/fringe cleanup",
+      "pixelSnap": true,
+      "pixelSnapKColors": 64,
+      "layoutMode": "fit-foreground",
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "grounded",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 8,
+        "report": "finalize-runtime.json"
+      },
+      "manifest": "attack_v2.manifest.json"
+    },
+    "hurt": {
+      "spritesheet": "hurt.png",
+      "previewGif": "hurt.gif",
+      "frames": 6,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/robin-chute-v3-stills-from-resnap-02-k16/hurt-w/export",
+      "finalizedSource": "runs/robin-chute-v3-public-final-export-01/hurt",
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 0,
+        "report": "runs/robin-chute-v3-public-final-export-01/hurt/finalize-runtime.json"
+      }
+    },
+    "jump": {
+      "spritesheet": "jump.png",
+      "previewGif": "jump.gif",
+      "frames": 6,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/robin-chute-v3-stills-from-resnap-02-k16/jump-w/export",
+      "finalizedSource": "runs/robin-chute-v3-public-final-export-01/jump",
+      "runtimeFinalization": {
+        "anchorPolicy": "preserve-motion",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 0,
+        "report": "runs/robin-chute-v3-public-final-export-01/jump/finalize-runtime.json"
+      }
+    },
+    "death": {
+      "spritesheet": "death.png",
+      "previewGif": "death.gif",
+      "frames": 5,
+      "fps": 8,
+      "columns": 5,
+      "rows": 1,
+      "repeat": 0,
+      "source": "runs/robin-chute-v3-public-curation-fixes-01/death-curated-frames-02-05-06-07-08/export",
+      "finalizedSource": "runs/robin-chute-v3-public-final-export-01/death",
+      "curation": {
+        "selectedFrames": [
+          2,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "runtimeFinalization": {
+        "anchorPolicy": "grounded",
+        "requestedAnchorPolicy": "auto",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 0,
+        "report": "runs/robin-chute-v3-public-final-export-01/death/finalize-runtime.json"
+      }
+    }
+  },
+  "publicExportRun": "runs/robin-chute-v3-public-final-export-01"
+}

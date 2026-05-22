@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "action": "enter_chute",
+  "direction": "n",
+  "mode": "video",
+  "spritesheet": "enter_chute.png",
+  "previewGif": "enter_chute.gif",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 5,
+  "rows": 2,
+  "frames": 6,
+  "fps": 8,
+  "anchor": {
+    "x": 128,
+    "y": 255
+  },
+  "sourceRun": "20260519-robin-enter-chute-grok-i2v-v1",
+  "publicAssetReady": true,
+  "sourceAction": "jump",
+  "cleanup": "post-cleanup/cleanup-report.json"
+}

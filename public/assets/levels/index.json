@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "levels": [
+    {
+      "id": "level-5-breaker-gauntlet",
+      "title": "Breaker Gauntlet",
+      "path": "levels/level-5-breaker-gauntlet.json",
+      "url": "/assets/levels/level-5-breaker-gauntlet.json"
+    },
+    {
+      "id": "playground-level",
+      "title": "Character Playground Loop",
+      "path": "levels/playground-level.json",
+      "url": "/assets/levels/playground-level.json"
+    },
+    {
+      "id": "first-level",
+      "title": "First Chute Run",
+      "path": "levels/first-level.json",
+      "url": "/assets/levels/first-level.json"
+    },
+    {
+      "id": "level-4-pressure-yard",
+      "title": "Pressure Yard",
+      "path": "levels/level-4-pressure-yard.json",
+      "url": "/assets/levels/level-4-pressure-yard.json"
+    },
+    {
+      "id": "level-3-scrap-patrol",
+      "title": "Scrap Patrol",
+      "path": "levels/level-3-scrap-patrol.json",
+      "url": "/assets/levels/level-3-scrap-patrol.json"
+    },
+    {
+      "id": "level-2-turret-run",
+      "title": "Scrap Sprint",
+      "path": "levels/level-2-turret-run.json",
+      "url": "/assets/levels/level-2-turret-run.json"
+    }
+  ]
+}

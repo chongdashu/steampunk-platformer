@@ -1,0 +1,2157 @@
+{
+  "$schema": "https://example.local/phaser-starter-assets.schema.json",
+  "version": 2,
+  "generatedAt": "2026-05-21T11:11:44.147Z",
+  "description": "Canonical catalog for public game assets. Generated Phaser textures are documented separately because they are created at runtime.",
+  "publicAssets": {
+    "images": [
+      {
+        "id": "robinchute-hud-player-portrait",
+        "kind": "image",
+        "path": "ui/hud/player-portrait.png",
+        "url": "/assets/ui/hud/player-portrait.png",
+        "width": 531,
+        "height": 528,
+        "channels": "srgba",
+        "usage": "Robin Chute player portrait medallion for the HUD health display",
+        "sourceRun": "runs/20260519-health-hud-v1",
+        "phaser": {
+          "load": "image",
+          "key": "player-hud-portrait"
+        }
+      },
+      {
+        "id": "robinchute-hud-health-frame",
+        "kind": "image",
+        "path": "ui/hud/player-health-frame.png",
+        "url": "/assets/ui/hud/player-health-frame.png",
+        "width": 1037,
+        "height": 444,
+        "channels": "srgba",
+        "usage": "Forest steampunk player health frame with transparent live-fill slot",
+        "sourceRun": "runs/20260519-health-hud-v1",
+        "fillSlot": {
+          "x": 138,
+          "y": 231,
+          "width": 763,
+          "height": 94
+        },
+        "phaser": {
+          "load": "image",
+          "key": "player-hud-health-frame"
+        }
+      },
+      {
+        "id": "robinchute-hud-scrap-counter-badge",
+        "kind": "image",
+        "path": "ui/hud/scrap-counter-badge.png",
+        "url": "/assets/ui/hud/scrap-counter-badge.png",
+        "width": 282,
+        "height": 91,
+        "channels": "srgba",
+        "usage": "Forest steampunk scrap-collected counter badge with gear medallion and empty count panel for runtime text",
+        "sourceRun": "runs/20260521-scrap-counter-hud-fix-v2",
+        "textSlot": {
+          "x": 12,
+          "y": 10,
+          "width": 258,
+          "height": 71
+        },
+        "phaser": {
+          "load": "image",
+          "key": "scrap-counter-badge"
+        }
+      },
+      {
+        "id": "menu-splash",
+        "kind": "image",
+        "path": "ui/menu/splash-1376x768.png",
+        "url": "/assets/ui/menu/splash-1376x768.png",
+        "width": 1088,
+        "height": 608,
+        "channels": "srgb",
+        "usage": "Stylized title poster splash art for SplashScene",
+        "sourceRun": "experiments/fal-image/20260521-menu-splash-v3-poster/splash",
+        "phaser": {
+          "load": "image",
+          "key": "menu-splash"
+        }
+      },
+      {
+        "id": "menu-background",
+        "kind": "image",
+        "path": "ui/menu/background-1376x768.png",
+        "url": "/assets/ui/menu/background-1376x768.png",
+        "width": 1376,
+        "height": 768,
+        "channels": "srgb",
+        "usage": "Soft persistent menu backdrop for main menu, level select, and settings",
+        "sourceRun": "experiments/fal-image/20260521-menu-splash-v1/menu-bg",
+        "phaser": {
+          "load": "image",
+          "key": "menu-background"
+        }
+      },
+      {
+        "id": "exit-chute",
+        "kind": "image",
+        "path": "exit/exit-chute.png",
+        "url": "/assets/exit/exit-chute.png",
+        "width": 228,
+        "height": 420,
+        "channels": "srgba",
+        "usage": "Standalone end-of-level chute finish gate with editable trigger bounds",
+        "sourceRun": "runs/20260519-level-finish-marker-concepts-v1",
+        "sourceAsset": "runs/20260519-level-finish-marker-concepts-v1/finish-marker-concepts-sheet.png#concept-1",
+        "phaser": {
+          "load": "image",
+          "key": "exit-chute"
+        }
+      },
+      {
+        "id": "parallax-v2-sky-base",
+        "kind": "image",
+        "path": "backgrounds/v2/parallax-sky-base-5760x1080.png",
+        "url": "/assets/backgrounds/v2/parallax-sky-base-5760x1080.png",
+        "width": 5760,
+        "height": 1080,
+        "channels": "srgb",
+        "setId": "v2",
+        "layerId": "sky",
+        "label": "Sky base",
+        "defaultVisible": true,
+        "speed": 4,
+        "usage": "v2 opaque sky and atmosphere base layer",
+        "sourceRun": "runs/20260511-150423-robin-chute-parallax-coverage-contract",
+        "parallaxScrollFactor": {
+          "x": 0.08,
+          "y": 0
+        },
+        "phaser": {
+          "load": "image",
+          "key": "parallax-v2-sky-base"
+        }
+      },
+      {
+        "id": "parallax-v2-far-city-forest",
+        "kind": "image",
+        "path": "backgrounds/v2/parallax-far-city-forest-alpha-5760x1080.png",
+        "url": "/assets/backgrounds/v2/parallax-far-city-forest-alpha-5760x1080.png",
+        "width": 5760,
+        "height": 1080,
+        "channels": "srgba",
+        "setId": "v2",
+        "layerId": "far",
+        "label": "Far city forest",
+        "defaultVisible": true,
+        "speed": 14,
+        "usage": "v2 far transparent parallax layer with intentional top and gameplay gaps",
+        "sourceRun": "runs/20260511-150423-robin-chute-parallax-coverage-contract",
+        "parallaxScrollFactor": {
+          "x": 0.25,
+          "y": 0
+        },
+        "phaser": {
+          "load": "image",
+          "key": "parallax-v2-far-city-forest"
+        }
+      },
+      {
+        "id": "parallax-v2-mid-forest-chutes",
+        "kind": "image",
+        "path": "backgrounds/v2/parallax-mid-forest-chutes-alpha-5760x1080.png",
+        "url": "/assets/backgrounds/v2/parallax-mid-forest-chutes-alpha-5760x1080.png",
+        "width": 5760,
+        "height": 1080,
+        "channels": "srgba",
+        "setId": "v2",
+        "layerId": "mid",
+        "label": "Mid forest chutes",
+        "defaultVisible": true,
+        "speed": 34,
+        "usage": "v2 mid transparent parallax layer with preserved gameplay readability gaps",
+        "sourceRun": "runs/20260511-150423-robin-chute-parallax-coverage-contract",
+        "tileOffsetY": 120,
+        "parallaxScrollFactor": {
+          "x": 0.5,
+          "y": 0
+        },
+        "phaser": {
+          "load": "image",
+          "key": "parallax-v2-mid-forest-chutes"
+        }
+      }
+    ],
+    "atlases": [
+      {
+        "id": "gameplay-platforming-v1",
+        "kind": "atlas",
+        "path": "gameplay/v1/platforming-elements-atlas-alpha-1536x1024.png",
+        "url": "/assets/gameplay/v1/platforming-elements-atlas-alpha-1536x1024.png",
+        "atlasPath": "gameplay/v1/platforming-elements-atlas.json",
+        "atlasUrl": "/assets/gameplay/v1/platforming-elements-atlas.json",
+        "width": 1536,
+        "height": 1024,
+        "channels": "srgba",
+        "usage": "variable-frame platforming and collision element atlas",
+        "sourceRun": "runs/20260511-160126-main-layer-atlases-v2",
+        "phaser": {
+          "load": "atlas",
+          "key": "gameplay-platforming-v1"
+        }
+      },
+      {
+        "id": "gameplay-props-pickups-v1",
+        "kind": "atlas",
+        "path": "gameplay/v1/props-pickups-atlas-alpha-1536x1024.png",
+        "url": "/assets/gameplay/v1/props-pickups-atlas-alpha-1536x1024.png",
+        "atlasPath": "gameplay/v1/props-pickups-atlas.json",
+        "atlasUrl": "/assets/gameplay/v1/props-pickups-atlas.json",
+        "width": 1536,
+        "height": 1024,
+        "channels": "srgba",
+        "usage": "variable-frame static prop and pickup atlas",
+        "sourceRun": "runs/20260511-160126-main-layer-atlases-v2",
+        "phaser": {
+          "load": "atlas",
+          "key": "gameplay-props-pickups-v1"
+        }
+      }
+    ],
+    "spritesheets": [
+      {
+        "id": "pipe-spitting-turret-idle",
+        "kind": "spritesheet",
+        "path": "enemies/turret/idle.png",
+        "url": "/assets/enemies/turret/idle.png",
+        "previewGif": "/assets/enemies/turret/idle.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 6,
+        "repeat": -1,
+        "enemyId": "pipe-spitting-turret",
+        "animation": "idle",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-101352-pipe-spitting-turret-idle-grok-i2v-2s/idle-w-locked-base-v2/post-selection/preserve-canvas-no-pixelsnap-green-clean-v3",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "pipe-spitting-turret-idle"
+        }
+      },
+      {
+        "id": "pipe-spitting-turret-attack",
+        "kind": "spritesheet",
+        "path": "enemies/turret/attack.png",
+        "url": "/assets/enemies/turret/attack.png",
+        "previewGif": "/assets/enemies/turret/attack.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 8,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": 0,
+        "enemyId": "pipe-spitting-turret",
+        "animation": "attack",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-100432-pipe-spitting-turret-grok-i2v-v4/attack-w/post-selection/preserve-canvas-no-pixelsnap-green-clean-v1",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "pipe-spitting-turret-attack"
+        }
+      },
+      {
+        "id": "pipe-spitting-turret-attack-v2",
+        "kind": "spritesheet",
+        "path": "enemies/turret/attack-v2/attack.png",
+        "url": "/assets/enemies/turret/attack-v2/attack.png",
+        "previewGif": "/assets/enemies/turret/attack-v2/attack.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 8,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": 0,
+        "enemyId": "pipe-spitting-turret",
+        "animation": "attack-v2",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-100432-pipe-spitting-turret-grok-i2v-v4/attack-w/post-selection/import-normalized-grounded-norescale-green-cleaned-v1",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "pipe-spitting-turret-attack-v2"
+        }
+      },
+      {
+        "id": "pipe-spitting-turret-hurt",
+        "kind": "spritesheet",
+        "path": "enemies/turret/hurt.png",
+        "url": "/assets/enemies/turret/hurt.png",
+        "previewGif": "/assets/enemies/turret/hurt.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 6,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "enemyId": "pipe-spitting-turret",
+        "animation": "hurt",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-100432-pipe-spitting-turret-grok-i2v-v4/hurt-w/post-selection/preserve-canvas-no-pixelsnap-green-clean-v1",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "pipe-spitting-turret-hurt"
+        }
+      },
+      {
+        "id": "pipe-spitting-turret-hurt-v2",
+        "kind": "spritesheet",
+        "path": "enemies/turret/hurt-v2/hurt.png",
+        "url": "/assets/enemies/turret/hurt-v2/hurt.png",
+        "previewGif": "/assets/enemies/turret/hurt-v2/hurt.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 6,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "enemyId": "pipe-spitting-turret",
+        "animation": "hurt-v2",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-100432-pipe-spitting-turret-grok-i2v-v4/hurt-w/post-selection/import-normalized-grounded-norescale-green-cleaned-v1",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "pipe-spitting-turret-hurt-v2"
+        }
+      },
+      {
+        "id": "pipe-spitting-turret-death",
+        "kind": "spritesheet",
+        "path": "enemies/turret/death.png",
+        "url": "/assets/enemies/turret/death.png",
+        "previewGif": "/assets/enemies/turret/death.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "enemyId": "pipe-spitting-turret",
+        "animation": "death",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-100432-pipe-spitting-turret-grok-i2v-v4/death-w/post-selection/anchor-bottom-194-v1",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "pipe-spitting-turret-death"
+        }
+      },
+      {
+        "id": "turret-cannonball-projectile",
+        "kind": "spritesheet",
+        "path": "enemies/turret/effects/cannonball-projectile.png",
+        "url": "/assets/enemies/turret/effects/cannonball-projectile.png",
+        "width": 384,
+        "height": 64,
+        "frameWidth": 64,
+        "frameHeight": 64,
+        "frames": 6,
+        "columns": 6,
+        "rows": 1,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": -1,
+        "enemyId": "pipe-spitting-turret",
+        "effect": "projectile",
+        "usage": "animated cannonball projectile and impact frames for the turret",
+        "sourceRun": "runs/20260518-132315-turret-projectile-effects",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "turret-cannonball-projectile"
+        }
+      },
+      {
+        "id": "turret-muzzle-smoke",
+        "kind": "spritesheet",
+        "path": "enemies/turret/effects/muzzle-smoke.png",
+        "url": "/assets/enemies/turret/effects/muzzle-smoke.png",
+        "width": 672,
+        "height": 96,
+        "frameWidth": 96,
+        "frameHeight": 96,
+        "frames": 7,
+        "columns": 7,
+        "rows": 1,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 14,
+        "repeat": 0,
+        "enemyId": "pipe-spitting-turret",
+        "effect": "muzzle-smoke",
+        "usage": "animated muzzle smoke burst for turret shooting",
+        "sourceRun": "runs/20260518-132315-turret-projectile-effects",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "turret-muzzle-smoke"
+        }
+      },
+      {
+        "id": "robinchute-char-idle",
+        "kind": "spritesheet",
+        "path": "character/idle.png",
+        "url": "/assets/character/idle.png",
+        "previewGif": "/assets/character/idle.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 6,
+        "repeat": -1,
+        "characterId": "robinchute-char",
+        "animation": "idle",
+        "direction": "w",
+        "sourceRun": "runs/robin-chute-v3-public-final-export-01/idle",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-idle"
+        }
+      },
+      {
+        "id": "robinchute-char-walk",
+        "kind": "spritesheet",
+        "path": "character/walk.png",
+        "url": "/assets/character/walk.png",
+        "previewGif": "/assets/character/walk.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": -1,
+        "characterId": "robinchute-char",
+        "animation": "walk",
+        "direction": "w",
+        "sourceRun": "runs/robin-chute-v3-public-final-export-01/walk",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-walk"
+        }
+      },
+      {
+        "id": "robinchute-char-attack",
+        "kind": "spritesheet",
+        "path": "character/attack.png",
+        "url": "/assets/character/attack.png",
+        "previewGif": "/assets/character/attack.gif",
+        "width": 1024,
+        "height": 256,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 4,
+        "columns": 4,
+        "rows": 1,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": 0,
+        "characterId": "robinchute-char",
+        "animation": "attack",
+        "direction": "w",
+        "sourceRun": "runs/robin-chute-v3-public-final-export-01/attack",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-attack"
+        }
+      },
+      {
+        "id": "robinchute-char-attack-v2",
+        "kind": "spritesheet",
+        "path": "character/attack_v2.png",
+        "url": "/assets/character/attack_v2.png",
+        "previewGif": "/assets/character/attack_v2.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 8,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": 0,
+        "characterId": "robinchute-char",
+        "animation": "attack_v2",
+        "direction": "w",
+        "pixelSnap": true,
+        "pixelSnapKColors": 64,
+        "sourceRun": "runs/20260520-player-attack-fist-grok-i2v-v9-fit-foreground-pixel-snap-fringe",
+        "layoutMode": "fit-foreground",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-attack_v2"
+        }
+      },
+      {
+        "id": "robinchute-char-hurt",
+        "kind": "spritesheet",
+        "path": "character/hurt.png",
+        "url": "/assets/character/hurt.png",
+        "previewGif": "/assets/character/hurt.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 6,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "characterId": "robinchute-char",
+        "animation": "hurt",
+        "direction": "w",
+        "sourceRun": "runs/robin-chute-v3-stills-from-resnap-02-k16/hurt-w/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-hurt"
+        }
+      },
+      {
+        "id": "robinchute-char-jump",
+        "kind": "spritesheet",
+        "path": "character/jump.png",
+        "url": "/assets/character/jump.png",
+        "previewGif": "/assets/character/jump.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 6,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "characterId": "robinchute-char",
+        "animation": "jump",
+        "direction": "w",
+        "sourceRun": "runs/robin-chute-v3-stills-from-resnap-02-k16/jump-w/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-jump"
+        }
+      },
+      {
+        "id": "robinchute-char-death",
+        "kind": "spritesheet",
+        "path": "character/death.png",
+        "url": "/assets/character/death.png",
+        "previewGif": "/assets/character/death.gif",
+        "width": 1280,
+        "height": 256,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 5,
+        "columns": 5,
+        "rows": 1,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "characterId": "robinchute-char",
+        "animation": "death",
+        "direction": "w",
+        "sourceRun": "runs/robin-chute-v3-public-curation-fixes-01/death-curated-frames-02-05-06-07-08/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-death"
+        }
+      },
+      {
+        "id": "robinchute-char-run",
+        "kind": "spritesheet",
+        "path": "character/run.png",
+        "url": "/assets/character/run.png",
+        "previewGif": "/assets/character/run.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 12,
+        "repeat": -1,
+        "characterId": "robinchute-char",
+        "animation": "run",
+        "direction": "w",
+        "sourceRun": "runs/robin-chute-v3-public-final-export-01/run",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-run"
+        }
+      },
+      {
+        "id": "robinchute-char-nosnap-idle",
+        "kind": "spritesheet",
+        "path": "character-nosnap/idle.png",
+        "url": "/assets/character-nosnap/idle.png",
+        "previewGif": "/assets/character-nosnap/idle.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 6,
+        "repeat": -1,
+        "characterId": "robinchute-char-nosnap",
+        "animation": "idle",
+        "direction": "w",
+        "sourceRun": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/idle",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-nosnap-idle"
+        }
+      },
+      {
+        "id": "robinchute-char-nosnap-walk",
+        "kind": "spritesheet",
+        "path": "character-nosnap/walk.png",
+        "url": "/assets/character-nosnap/walk.png",
+        "previewGif": "/assets/character-nosnap/walk.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": -1,
+        "characterId": "robinchute-char-nosnap",
+        "animation": "walk",
+        "direction": "w",
+        "sourceRun": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/walk",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-nosnap-walk"
+        }
+      },
+      {
+        "id": "robinchute-char-nosnap-run",
+        "kind": "spritesheet",
+        "path": "character-nosnap/run.png",
+        "url": "/assets/character-nosnap/run.png",
+        "previewGif": "/assets/character-nosnap/run.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 12,
+        "repeat": -1,
+        "characterId": "robinchute-char-nosnap",
+        "animation": "run",
+        "direction": "w",
+        "sourceRun": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/run",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-nosnap-run"
+        }
+      },
+      {
+        "id": "robinchute-char-nosnap-attack",
+        "kind": "spritesheet",
+        "path": "character-nosnap/attack.png",
+        "url": "/assets/character-nosnap/attack.png",
+        "previewGif": "/assets/character-nosnap/attack.gif",
+        "width": 1280,
+        "height": 256,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 4,
+        "columns": 5,
+        "rows": 1,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": 0,
+        "characterId": "robinchute-char-nosnap",
+        "animation": "attack",
+        "direction": "w",
+        "sourceRun": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/attack",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-nosnap-attack"
+        }
+      },
+      {
+        "id": "robinchute-char-nosnap-attack-v2",
+        "kind": "spritesheet",
+        "path": "character-nosnap/attack_v2.png",
+        "url": "/assets/character-nosnap/attack_v2.png",
+        "previewGif": "/assets/character-nosnap/attack_v2.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 8,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": 0,
+        "characterId": "robinchute-char-nosnap",
+        "animation": "attack_v2",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260520-player-attack-fist-grok-i2v-v6-preserve-canvas",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-nosnap-attack_v2"
+        }
+      },
+      {
+        "id": "robinchute-char-nosnap-hurt",
+        "kind": "spritesheet",
+        "path": "character-nosnap/hurt.png",
+        "url": "/assets/character-nosnap/hurt.png",
+        "previewGif": "/assets/character-nosnap/hurt.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 6,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "characterId": "robinchute-char-nosnap",
+        "animation": "hurt",
+        "direction": "w",
+        "sourceRun": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/hurt",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-nosnap-hurt"
+        }
+      },
+      {
+        "id": "robinchute-char-nosnap-jump",
+        "kind": "spritesheet",
+        "path": "character-nosnap/jump.png",
+        "url": "/assets/character-nosnap/jump.png",
+        "previewGif": "/assets/character-nosnap/jump.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 6,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "characterId": "robinchute-char-nosnap",
+        "animation": "jump",
+        "direction": "w",
+        "sourceRun": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/jump",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-nosnap-jump"
+        }
+      },
+      {
+        "id": "robinchute-char-nosnap-death",
+        "kind": "spritesheet",
+        "path": "character-nosnap/death.png",
+        "url": "/assets/character-nosnap/death.png",
+        "previewGif": "/assets/character-nosnap/death.gif",
+        "width": 1280,
+        "height": 256,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 5,
+        "columns": 5,
+        "rows": 1,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "characterId": "robinchute-char-nosnap",
+        "animation": "death",
+        "direction": "w",
+        "sourceRun": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/death",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-nosnap-death"
+        }
+      },
+      {
+        "id": "robinchute-char-nosnap-enter-chute",
+        "kind": "spritesheet",
+        "path": "character-nosnap/enter_chute.png",
+        "url": "/assets/character-nosnap/enter_chute.png",
+        "previewGif": "/assets/character-nosnap/enter_chute.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 6,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "characterId": "robinchute-char-nosnap",
+        "animation": "enter_chute",
+        "direction": "n",
+        "pixelSnap": false,
+        "anchorSource": "runs/20260519-robin-back-anchor-v1/anchors/n/anchor-snapped-1024-chroma.png",
+        "sourceRun": "runs/20260519-robin-enter-chute-grok-i2v-v1/post-cleanup/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "robinchute-char-nosnap-enter_chute"
+        }
+      },
+      {
+        "id": "scavenger-bot-idle",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/idle.png",
+        "url": "/assets/enemies/scavenger-bot/idle.png",
+        "previewGif": "/assets/enemies/scavenger-bot/idle.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 6,
+        "repeat": -1,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "idle",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v1/idle-w-grok-i2v/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-idle"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "Fixed-canvas export with a later vertical-only registration pass."
+        },
+        "registrationFix": {
+          "sourceRun": "runs/20260519-131045-scavenger-bot-idle-registration",
+          "method": "vertical-shift-only",
+          "targetVisibleBottomY": 201,
+          "framesAdjusted": 10
+        }
+      },
+      {
+        "id": "scavenger-bot-walk",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/walk.png",
+        "url": "/assets/enemies/scavenger-bot/walk.png",
+        "previewGif": "/assets/enemies/scavenger-bot/walk.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": -1,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "walk",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v6/walk-w-grok-2s-10f/post-selection/fixed-canvas-no-pixelsnap-20260519-134102/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-walk"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "Refreshed from 20260519-134102 frame-picker selection; preserve-canvas, no pixel snap, no foreground bbox fitting."
+        },
+        "framePicker": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v6/walk-w-grok-2s-10f/frame-picker/20260519-134102",
+        "runtimeFinalization": {
+          "anchorPolicy": "preserve-motion",
+          "targetBottomY": 255,
+          "targetCenterX": 128,
+          "framesAdjusted": 0,
+          "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v6/walk-w-grok-2s-10f/post-selection/fixed-canvas-no-pixelsnap-20260519-134102/export/finalize-runtime.json"
+        }
+      },
+      {
+        "id": "scavenger-bot-run",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/run.png",
+        "url": "/assets/enemies/scavenger-bot/run.png",
+        "previewGif": "/assets/enemies/scavenger-bot/run.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 8,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 12,
+        "repeat": -1,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "run",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v2/run-w-grok-direct/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-run"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+        }
+      },
+      {
+        "id": "scavenger-bot-attack",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/attack.png",
+        "url": "/assets/enemies/scavenger-bot/attack.png",
+        "previewGif": "/assets/enemies/scavenger-bot/attack.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 8,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": 0,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "attack",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v5/attack-w-grok-rerun/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-attack"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+        }
+      },
+      {
+        "id": "scavenger-bot-hurt",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/hurt.png",
+        "url": "/assets/enemies/scavenger-bot/hurt.png",
+        "previewGif": "/assets/enemies/scavenger-bot/hurt.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 6,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "hurt",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v2/hurt-w-grok-direct/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-hurt"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+        }
+      },
+      {
+        "id": "scavenger-bot-death",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/death.png",
+        "url": "/assets/enemies/scavenger-bot/death.png",
+        "previewGif": "/assets/enemies/scavenger-bot/death.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "death",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v2/death-w-grok-direct/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-death"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+        }
+      },
+      {
+        "id": "scavenger-bot-jump",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/jump.png",
+        "url": "/assets/enemies/scavenger-bot/jump.png",
+        "previewGif": "/assets/enemies/scavenger-bot/jump.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 6,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "jump",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v2/jump-w-grok-direct/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-jump"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+        }
+      },
+      {
+        "id": "scavenger-bot-i2v-idle",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/i2v/idle.png",
+        "url": "/assets/enemies/scavenger-bot/i2v/idle.png",
+        "previewGif": "/assets/enemies/scavenger-bot/i2v/idle.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 6,
+        "repeat": -1,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "idle",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v1/idle-w-grok-i2v/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-i2v-idle"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+        }
+      },
+      {
+        "id": "scavenger-bot-i2v-walk",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/i2v/walk.png",
+        "url": "/assets/enemies/scavenger-bot/i2v/walk.png",
+        "previewGif": "/assets/enemies/scavenger-bot/i2v/walk.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": -1,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "walk",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v6/walk-w-grok-2s-10f/post-selection/fixed-canvas-no-pixelsnap-20260519-134102/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-i2v-walk"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "Refreshed from 20260519-134102 frame-picker selection; preserve-canvas, no pixel snap, no foreground bbox fitting."
+        },
+        "framePicker": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v6/walk-w-grok-2s-10f/frame-picker/20260519-134102",
+        "runtimeFinalization": {
+          "anchorPolicy": "preserve-motion",
+          "targetBottomY": 255,
+          "targetCenterX": 128,
+          "framesAdjusted": 0,
+          "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v6/walk-w-grok-2s-10f/post-selection/fixed-canvas-no-pixelsnap-20260519-134102/export/finalize-runtime.json"
+        }
+      },
+      {
+        "id": "scavenger-bot-i2v-run",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/i2v/run.png",
+        "url": "/assets/enemies/scavenger-bot/i2v/run.png",
+        "previewGif": "/assets/enemies/scavenger-bot/i2v/run.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 8,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 12,
+        "repeat": -1,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "run",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v2/run-w-grok-direct/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-i2v-run"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+        }
+      },
+      {
+        "id": "scavenger-bot-i2v-attack",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/i2v/attack.png",
+        "url": "/assets/enemies/scavenger-bot/i2v/attack.png",
+        "previewGif": "/assets/enemies/scavenger-bot/i2v/attack.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 8,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": 0,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "attack",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v5/attack-w-grok-rerun/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-i2v-attack"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+        }
+      },
+      {
+        "id": "scavenger-bot-i2v-hurt",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/i2v/hurt.png",
+        "url": "/assets/enemies/scavenger-bot/i2v/hurt.png",
+        "previewGif": "/assets/enemies/scavenger-bot/i2v/hurt.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 6,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "hurt",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v2/hurt-w-grok-direct/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-i2v-hurt"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+        }
+      },
+      {
+        "id": "scavenger-bot-i2v-death",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/i2v/death.png",
+        "url": "/assets/enemies/scavenger-bot/i2v/death.png",
+        "previewGif": "/assets/enemies/scavenger-bot/i2v/death.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "death",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v2/death-w-grok-direct/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-i2v-death"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+        }
+      },
+      {
+        "id": "scavenger-bot-i2v-jump",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/i2v/jump.png",
+        "url": "/assets/enemies/scavenger-bot/i2v/jump.png",
+        "previewGif": "/assets/enemies/scavenger-bot/i2v/jump.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 6,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "enemyId": "scavenger-bot",
+        "variant": "i2v",
+        "animation": "jump",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v2/jump-w-grok-direct/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-i2v-jump"
+        },
+        "promotionStatus": "fixed-canvas-ready",
+        "publicAssetReady": true,
+        "requiredBeforePromotion": [
+          "frame-picker",
+          "process-selection --preserve-motion",
+          "finalize-runtime"
+        ],
+        "processingContract": {
+          "layoutMode": "preserve-canvas",
+          "pixelSnap": false,
+          "foregroundRecovery": false,
+          "runtimeFinalization": "preserve-motion",
+          "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+        }
+      },
+      {
+        "id": "scavenger-bot-action-generated-attack",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/action-generated/attack.png",
+        "url": "/assets/enemies/scavenger-bot/action-generated/attack.png",
+        "previewGif": "/assets/enemies/scavenger-bot/action-generated/attack.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 8,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 10,
+        "repeat": 0,
+        "enemyId": "scavenger-bot",
+        "variant": "action-generated",
+        "animation": "attack",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v1/attack-w-image/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-action-generated-attack"
+        },
+        "promotionStatus": "comparison-ready",
+        "publicAssetReady": true
+      },
+      {
+        "id": "scavenger-bot-action-generated-hurt",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/action-generated/hurt.png",
+        "url": "/assets/enemies/scavenger-bot/action-generated/hurt.png",
+        "previewGif": "/assets/enemies/scavenger-bot/action-generated/hurt.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 6,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "enemyId": "scavenger-bot",
+        "variant": "action-generated",
+        "animation": "hurt",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v1/hurt-w-image/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-action-generated-hurt"
+        },
+        "promotionStatus": "comparison-ready",
+        "publicAssetReady": true
+      },
+      {
+        "id": "scavenger-bot-action-generated-death",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/action-generated/death.png",
+        "url": "/assets/enemies/scavenger-bot/action-generated/death.png",
+        "previewGif": "/assets/enemies/scavenger-bot/action-generated/death.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 10,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "enemyId": "scavenger-bot",
+        "variant": "action-generated",
+        "animation": "death",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v1/death-w-image/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-action-generated-death"
+        },
+        "promotionStatus": "comparison-ready",
+        "publicAssetReady": true
+      },
+      {
+        "id": "scavenger-bot-action-generated-jump",
+        "kind": "spritesheet",
+        "path": "enemies/scavenger-bot/action-generated/jump.png",
+        "url": "/assets/enemies/scavenger-bot/action-generated/jump.png",
+        "previewGif": "/assets/enemies/scavenger-bot/action-generated/jump.gif",
+        "width": 1280,
+        "height": 512,
+        "frameWidth": 256,
+        "frameHeight": 256,
+        "frames": 6,
+        "columns": 5,
+        "rows": 2,
+        "margin": 0,
+        "spacing": 0,
+        "frameRate": 8,
+        "repeat": 0,
+        "enemyId": "scavenger-bot",
+        "variant": "action-generated",
+        "animation": "jump",
+        "direction": "w",
+        "pixelSnap": false,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v1/jump-w-image/export",
+        "phaser": {
+          "load": "spritesheet",
+          "key": "scavenger-bot-action-generated-jump"
+        },
+        "promotionStatus": "comparison-ready",
+        "publicAssetReady": true
+      }
+    ],
+    "audio": [
+      {
+        "id": "music-level-clear-sting",
+        "kind": "audio",
+        "category": "music",
+        "path": "music/level-clear-sting.mp3",
+        "url": "/assets/music/level-clear-sting.mp3",
+        "durationSeconds": 8,
+        "volume": 0.62,
+        "loop": false,
+        "usage": "Level cleared fanfare after Robin crawls into the exit chute",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Short whimsical steampunk level-clear fanfare for a 2D pixel-art platformer. Brass penny-whistle style flourish, tiny clockwork bells, upbeat scrap-metal percussion, warm resolving final chord. No vocals, no big orchestral trailer sound, clean ending.",
+        "phaser": {
+          "load": "audio",
+          "key": "music-level-clear-sting"
+        }
+      },
+      {
+        "id": "music-game-over-sting",
+        "kind": "audio",
+        "category": "music",
+        "path": "music/game-over-sting.mp3",
+        "url": "/assets/music/game-over-sting.mp3",
+        "durationSeconds": 6,
+        "volume": 0.58,
+        "loop": false,
+        "usage": "Game over sting when the player health reaches zero",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Short playful game-over sting for a whimsical steampunk scrapyard platformer. Sagging brass note, soft broken music-box cadence, tiny steam hiss tail, melancholy but not scary. No vocals, no horror impact, clean ending.",
+        "phaser": {
+          "load": "audio",
+          "key": "music-game-over-sting"
+        }
+      },
+      {
+        "id": "sfx-ui-confirm",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/ui-confirm.mp3",
+        "url": "/assets/sfx/ui-confirm.mp3",
+        "durationSeconds": 0.55,
+        "volume": 0.5,
+        "loop": false,
+        "usage": "Menu confirm and level selection",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Short satisfying UI confirm for a whimsical steampunk pixel-art game: tiny brass lever click followed by soft bell tick, clean and bright, no voice.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-ui-confirm"
+        }
+      },
+      {
+        "id": "sfx-ui-deny",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/ui-deny.mp3",
+        "url": "/assets/sfx/ui-deny.mp3",
+        "durationSeconds": 0.5,
+        "volume": 0.45,
+        "loop": false,
+        "usage": "Locked level or unavailable action",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Short gentle UI deny sound for a whimsical steampunk pixel-art game: muted brass clunk and tiny spring wobble, non-annoying, no voice.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-ui-deny"
+        }
+      },
+      {
+        "id": "sfx-player-jump",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/player-jump.mp3",
+        "url": "/assets/sfx/player-jump.mp3",
+        "durationSeconds": 0.5,
+        "volume": 0.55,
+        "loop": false,
+        "usage": "Player jump",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Quick platformer jump sound with soft boot push-off, small spring twang, and a puff of steam, whimsical steampunk, polished pixel-art feel, no voice.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-player-jump"
+        }
+      },
+      {
+        "id": "sfx-player-land",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/player-land.mp3",
+        "url": "/assets/sfx/player-land.mp3",
+        "durationSeconds": 0.5,
+        "volume": 0.48,
+        "loop": false,
+        "usage": "Player landing on mossy platforms",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Short soft landing sound on mossy wooden scrap platform: boot thud, faint board creak, tiny dust puff, whimsical steampunk pixel-art platformer.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-player-land"
+        }
+      },
+      {
+        "id": "sfx-player-attack",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/player-attack.mp3",
+        "url": "/assets/sfx/player-attack.mp3",
+        "durationSeconds": 0.5,
+        "volume": 0.58,
+        "loop": false,
+        "usage": "Player punch attack active frames",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Snappy player punch swing for a whimsical steampunk platformer: quick cloth whoosh, small brass gear snap, light impact-ready transient, no heavy gore, no voice.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-player-attack"
+        }
+      },
+      {
+        "id": "sfx-player-hurt",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/player-hurt.mp3",
+        "url": "/assets/sfx/player-hurt.mp3",
+        "durationSeconds": 0.65,
+        "volume": 0.58,
+        "loop": false,
+        "usage": "Player takes damage",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Cartoony non-vocal hurt sound for a steampunk platformer: soft metal bonk, tiny spring recoil, brief steam sputter, readable but not harsh.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-player-hurt"
+        }
+      },
+      {
+        "id": "sfx-scrap-pickup",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/scrap-pickup.mp3",
+        "url": "/assets/sfx/scrap-pickup.mp3",
+        "durationSeconds": 0.6,
+        "volume": 0.56,
+        "loop": false,
+        "usage": "Scrap pickup in main levels",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Rewarding scrap pickup sound for a whimsical steampunk pixel-art game: bright gear chime, small coin-like clink, quick upward sparkle, clean and short.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-scrap-pickup"
+        }
+      },
+      {
+        "id": "sfx-turret-fire",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/turret-fire.mp3",
+        "url": "/assets/sfx/turret-fire.mp3",
+        "durationSeconds": 0.7,
+        "volume": 0.62,
+        "loop": false,
+        "usage": "Pipe turret fires a cannonball",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Comical pipe turret firing sound: compressed steam pop, brass valve snap, small cannonball puff, whimsical steampunk, punchy but not explosive.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-turret-fire"
+        }
+      },
+      {
+        "id": "sfx-projectile-impact",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/projectile-impact.mp3",
+        "url": "/assets/sfx/projectile-impact.mp3",
+        "durationSeconds": 0.55,
+        "volume": 0.6,
+        "loop": false,
+        "usage": "Cannonball impact and wall hit",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Small cannonball impact into wood and scrap metal: hollow thunk, tiny bolt rattle, little smoke puff, whimsical steampunk pixel-art game.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-projectile-impact"
+        }
+      },
+      {
+        "id": "sfx-enemy-hit",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/enemy-hit.mp3",
+        "url": "/assets/sfx/enemy-hit.mp3",
+        "durationSeconds": 0.55,
+        "volume": 0.58,
+        "loop": false,
+        "usage": "Turret or scavenger takes damage",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Enemy robot hit sound: brass plate clank, loose gears rattling, brief steam leak, playful steampunk, no voice, no gore.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-enemy-hit"
+        }
+      },
+      {
+        "id": "sfx-scavenger-attack",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/scavenger-attack.mp3",
+        "url": "/assets/sfx/scavenger-attack.mp3",
+        "durationSeconds": 0.65,
+        "volume": 0.6,
+        "loop": false,
+        "usage": "Scavenger melee claw swipe",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Scavenger bot claw swipe: quick rusty hinge snap, metal claw whoosh, small servo whirr, whimsical scrapyard steampunk, clear attack transient.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-scavenger-attack"
+        }
+      },
+      {
+        "id": "sfx-scavenger-step",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/scavenger-step.mp3",
+        "url": "/assets/sfx/scavenger-step.mp3",
+        "durationSeconds": 0.5,
+        "volume": 0.34,
+        "loop": false,
+        "usage": "Scavenger walk step accents",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Small scavenger robot footstep on wooden scrap platform: light metal foot tap, tiny servo squeak, subtle and loop-friendly, no voice.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-scavenger-step"
+        }
+      },
+      {
+        "id": "sfx-exit-chute-enter",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/exit-chute-enter.mp3",
+        "url": "/assets/sfx/exit-chute-enter.mp3",
+        "durationSeconds": 1.6,
+        "volume": 0.62,
+        "loop": false,
+        "usage": "Player enters the exit chute cutscene",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Player crawling into a giant brass exit chute: hollow pipe resonance, soft boot scrape, warm steam whoosh upward, whimsical steampunk, satisfying transition.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-exit-chute-enter"
+        }
+      },
+      {
+        "id": "sfx-health-low",
+        "kind": "audio",
+        "category": "sfx",
+        "path": "sfx/health-low.mp3",
+        "url": "/assets/sfx/health-low.mp3",
+        "durationSeconds": 0.8,
+        "volume": 0.45,
+        "loop": false,
+        "usage": "Low health warning pulse",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Short low-health warning pulse for a steampunk HUD: muted pressure gauge tick, tiny alarm bell wobble, urgent but not irritating, no voice.",
+        "phaser": {
+          "load": "audio",
+          "key": "sfx-health-low"
+        }
+      },
+      {
+        "id": "music-main-scrapyard-loop",
+        "kind": "audio",
+        "category": "music",
+        "path": "music/main-scrapyard-loop.mp3",
+        "url": "/assets/music/main-scrapyard-loop.mp3",
+        "durationSeconds": 45,
+        "volume": 0.42,
+        "loop": true,
+        "usage": "Softer main game and playground backing loop replacing the sharper v1 track",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-121024-robin-chute-softer-main-music",
+        "generatedAt": "2026-05-21T11:11:44.147Z",
+        "prompt": "Seamlessly loopable soft whimsical steampunk scrapyard adventure music for a 2D pixel-art platformer. Gentle warm marimba and muted pizzicato strings, soft brushed percussion, rounded tuba pulses, mellow accordion pads, tiny clockwork ticks kept quiet in the background. Cozy, curious, playful, and slightly mischievous, but smooth and non-sharp. Avoid bright piercing bells, harsh chiptune leads, shrill whistles, hard transients, cymbal crashes, trailer drums, vocals, and busy high-frequency melodies. Designed to sit under platforming gameplay for a long time without fatigue.",
+        "phaser": {
+          "load": "audio",
+          "key": "music-main-scrapyard-loop"
+        }
+      },
+      {
+        "id": "music-main-scrapyard-loop-sharp-v1",
+        "kind": "audio",
+        "category": "music",
+        "path": "music/main-scrapyard-loop-sharp-v1.mp3",
+        "url": "/assets/music/main-scrapyard-loop-sharp-v1.mp3",
+        "durationSeconds": 45,
+        "volume": 0.46,
+        "loop": true,
+        "usage": "Archived sharper v1 main game and playground backing loop kept for comparison and rollback",
+        "provider": "ElevenLabs",
+        "sourceRun": "runs/20260521-081900-robin-chute-audio-pack-v1",
+        "generatedAt": "2026-05-21T09:37:32.021Z",
+        "prompt": "Archived v1: sharper whimsical steampunk scrapyard adventure music generated before the softer replacement.",
+        "phaser": {
+          "load": "audio",
+          "key": "music-main-scrapyard-loop-sharp-v1"
+        }
+      }
+    ],
+    "configs": [
+      {
+        "id": "background-layer-offsets",
+        "kind": "config",
+        "path": "config/background-layer-offsets.json",
+        "url": "/assets/config/background-layer-offsets.json",
+        "usage": "debug-tuned parallax layer Y offsets"
+      },
+      {
+        "id": "baseline-level",
+        "kind": "config",
+        "path": "config/baseline-level.json",
+        "url": "/assets/config/baseline-level.json",
+        "usage": "baseline level generation debug config"
+      },
+      {
+        "id": "levels-index",
+        "kind": "config",
+        "path": "levels/index.json",
+        "url": "/assets/levels/index.json",
+        "usage": "catalog of editable level JSON files"
+      },
+      {
+        "id": "first-level",
+        "kind": "config",
+        "path": "levels/first-level.json",
+        "url": "/assets/levels/first-level.json",
+        "usage": "authored first gameplay level layout"
+      },
+      {
+        "id": "level-2-turret-run",
+        "kind": "config",
+        "path": "levels/level-2-turret-run.json",
+        "url": "/assets/levels/level-2-turret-run.json",
+        "usage": "authored second gameplay level with one turret"
+      },
+      {
+        "id": "level-3-scrap-patrol",
+        "kind": "config",
+        "path": "levels/level-3-scrap-patrol.json",
+        "url": "/assets/levels/level-3-scrap-patrol.json",
+        "usage": "authored third gameplay level with scavenger and turret"
+      },
+      {
+        "id": "level-4-pressure-yard",
+        "kind": "config",
+        "path": "levels/level-4-pressure-yard.json",
+        "url": "/assets/levels/level-4-pressure-yard.json",
+        "usage": "authored fourth gameplay level with two turrets and two scavengers"
+      },
+      {
+        "id": "level-5-breaker-gauntlet",
+        "kind": "config",
+        "path": "levels/level-5-breaker-gauntlet.json",
+        "url": "/assets/levels/level-5-breaker-gauntlet.json",
+        "usage": "authored fifth gameplay level with three turrets and three scavengers"
+      },
+      {
+        "id": "playground-level",
+        "kind": "config",
+        "path": "levels/playground-level.json",
+        "url": "/assets/levels/playground-level.json",
+        "usage": "single-screen character playground test level layout"
+      },
+      {
+        "id": "character-playground",
+        "kind": "config",
+        "path": "config/character-playground.json",
+        "url": "/assets/config/character-playground.json",
+        "usage": "character playground debug config"
+      },
+      {
+        "id": "robinchute-char-manifest",
+        "kind": "config",
+        "path": "character/manifest.json",
+        "url": "/assets/character/manifest.json",
+        "usage": "Robin Chute character spritesheet manifest"
+      },
+      {
+        "id": "robinchute-char-nosnap-manifest",
+        "kind": "config",
+        "path": "character-nosnap/manifest.json",
+        "url": "/assets/character-nosnap/manifest.json",
+        "usage": "Robin Chute no-snap character spritesheet manifest"
+      },
+      {
+        "id": "pipe-spitting-turret-manifest",
+        "kind": "config",
+        "path": "enemies/turret/manifest.json",
+        "url": "/assets/enemies/turret/manifest.json",
+        "usage": "Pipe spitting turret enemy animation manifest"
+      },
+      {
+        "id": "pipe-spitting-turret-bounds",
+        "kind": "config",
+        "path": "config/enemy-bounds.json",
+        "url": "/assets/config/enemy-bounds.json",
+        "usage": "editable pipe-spitting turret visual, collision, hurt, and attack bounds"
+      },
+      {
+        "id": "robinchute-char-bounds",
+        "kind": "config",
+        "path": "config/character-bounds.json",
+        "url": "/assets/config/character-bounds.json",
+        "usage": "editable Robin Chute visual, collision, and attack bounds"
+      },
+      {
+        "id": "platforming-elements-config",
+        "kind": "config",
+        "path": "config/platforming-elements.json",
+        "url": "/assets/config/platforming-elements.json",
+        "usage": "editable platforming element inclusion and collision bounds"
+      }
+    ]
+  },
+  "generatedAssets": [
+    {
+      "id": "ui-button",
+      "kind": "generated-texture",
+      "source": "src/game/generatedAssets.ts",
+      "width": 320,
+      "height": 60,
+      "usage": "menu button background"
+    },
+    {
+      "id": "ui-button-active",
+      "kind": "generated-texture",
+      "source": "src/game/generatedAssets.ts",
+      "width": 320,
+      "height": 60,
+      "usage": "selected menu button background"
+    },
+    {
+      "id": "ui-panel",
+      "kind": "generated-texture",
+      "source": "src/game/generatedAssets.ts",
+      "width": 520,
+      "height": 420,
+      "usage": "settings panel background"
+    },
+    {
+      "id": "template-player",
+      "kind": "generated-texture",
+      "source": "src/game/generatedAssets.ts",
+      "width": 42,
+      "height": 54,
+      "usage": "starter GameScene placeholder actor"
+    }
+  ],
+  "metadataExamples": {
+    "image": {
+      "id": "example-background",
+      "kind": "image",
+      "path": "backgrounds/example-background.png",
+      "url": "/assets/backgrounds/example-background.png",
+      "width": 1280,
+      "height": 720,
+      "phaser": {
+        "load": "image",
+        "key": "example-background"
+      }
+    },
+    "spritesheet": {
+      "id": "example-character-idle",
+      "kind": "spritesheet",
+      "path": "characters/example/idle.png",
+      "url": "/assets/characters/example/idle.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 8,
+      "margin": 0,
+      "spacing": 0,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "animation": {
+        "key": "example-character-idle",
+        "frameRate": 8,
+        "repeat": -1
+      },
+      "phaser": {
+        "load": "spritesheet",
+        "key": "example-character-idle"
+      }
+    },
+    "audio": {
+      "id": "example-confirm",
+      "kind": "audio",
+      "path": "sfx/example-confirm.mp3",
+      "url": "/assets/sfx/example-confirm.mp3",
+      "durationSeconds": 0.4,
+      "volume": 0.5,
+      "loop": false,
+      "phaser": {
+        "load": "audio",
+        "key": "example-confirm"
+      }
+    }
+  }
+}

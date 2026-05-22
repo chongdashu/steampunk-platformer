@@ -1,0 +1,1084 @@
+{
+  "meta": {
+    "app": "robin-chute",
+    "type": "Phaser variable-frame atlas metadata",
+    "image": "props-pickups-atlas-alpha-1536x1024.png",
+    "source": "source/props-pickups-atlas-chroma-source.png",
+    "size": {
+      "w": 1536,
+      "h": 1024
+    },
+    "chromaKey": "#ff00ff",
+    "gameResolutionReference": {
+      "w": 1280,
+      "h": 720
+    },
+    "characterFrameReference": {
+      "w": 256,
+      "h": 256,
+      "note": "Scale reference only; atlas frames are variable sized."
+    },
+    "frameCount": 31,
+    "notes": [
+      "No character sprites are included.",
+      "Frames are variable sized and should be tuned with manual collision shapes.",
+      "The magenta backing is intentional for local chroma extraction or tooling."
+    ]
+  },
+  "frames": {
+    "prop_mossy_hut_large": {
+      "frame": {
+        "x": 21,
+        "y": 87,
+        "w": 374,
+        "h": 336
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 374,
+        "h": 336
+      },
+      "sourceSize": {
+        "w": 374,
+        "h": 336
+      },
+      "detectedContentBounds": {
+        "x": 25,
+        "y": 91,
+        "w": 366,
+        "h": 328
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_mossy_tree_large": {
+      "frame": {
+        "x": 662,
+        "y": 21,
+        "w": 404,
+        "h": 407
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 404,
+        "h": 407
+      },
+      "sourceSize": {
+        "w": 404,
+        "h": 407
+      },
+      "detectedContentBounds": {
+        "x": 666,
+        "y": 25,
+        "w": 396,
+        "h": 399
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_chute_mouth_machine_large": {
+      "frame": {
+        "x": 971,
+        "y": 115,
+        "w": 308,
+        "h": 317
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 308,
+        "h": 317
+      },
+      "sourceSize": {
+        "w": 308,
+        "h": 317
+      },
+      "detectedContentBounds": {
+        "x": 975,
+        "y": 119,
+        "w": 300,
+        "h": 309
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_brass_tank_tall": {
+      "frame": {
+        "x": 1295,
+        "y": 51,
+        "w": 232,
+        "h": 375
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 232,
+        "h": 375
+      },
+      "sourceSize": {
+        "w": 232,
+        "h": 375
+      },
+      "detectedContentBounds": {
+        "x": 1299,
+        "y": 55,
+        "w": 224,
+        "h": 367
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_scrap_shack": {
+      "frame": {
+        "x": 406,
+        "y": 220,
+        "w": 253,
+        "h": 204
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 253,
+        "h": 204
+      },
+      "sourceSize": {
+        "w": 253,
+        "h": 204
+      },
+      "detectedContentBounds": {
+        "x": 410,
+        "y": 224,
+        "w": 245,
+        "h": 196
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_steam_pipe_stack": {
+      "frame": {
+        "x": 31,
+        "y": 455,
+        "w": 148,
+        "h": 198
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 148,
+        "h": 198
+      },
+      "sourceSize": {
+        "w": 148,
+        "h": 198
+      },
+      "detectedContentBounds": {
+        "x": 35,
+        "y": 459,
+        "w": 140,
+        "h": 190
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_steam_plume": {
+      "frame": {
+        "x": 133,
+        "y": 437,
+        "w": 146,
+        "h": 215
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 146,
+        "h": 215
+      },
+      "sourceSize": {
+        "w": 146,
+        "h": 215
+      },
+      "detectedContentBounds": {
+        "x": 137,
+        "y": 441,
+        "w": 138,
+        "h": 207
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_lantern_post": {
+      "frame": {
+        "x": 380,
+        "y": 442,
+        "w": 128,
+        "h": 213
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 213
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 213
+      },
+      "detectedContentBounds": {
+        "x": 384,
+        "y": 446,
+        "w": 120,
+        "h": 205
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_hanging_lantern_arm": {
+      "frame": {
+        "x": 564,
+        "y": 469,
+        "w": 141,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 141,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 141,
+        "h": 184
+      },
+      "detectedContentBounds": {
+        "x": 568,
+        "y": 473,
+        "w": 133,
+        "h": 176
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_fence_segment": {
+      "frame": {
+        "x": 752,
+        "y": 521,
+        "w": 310,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 310,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 310,
+        "h": 130
+      },
+      "detectedContentBounds": {
+        "x": 756,
+        "y": 525,
+        "w": 302,
+        "h": 122
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_warning_flag_rope": {
+      "frame": {
+        "x": 1106,
+        "y": 484,
+        "w": 359,
+        "h": 167
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 359,
+        "h": 167
+      },
+      "sourceSize": {
+        "w": 359,
+        "h": 167
+      },
+      "detectedContentBounds": {
+        "x": 1110,
+        "y": 488,
+        "w": 351,
+        "h": 159
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_crate": {
+      "frame": {
+        "x": 35,
+        "y": 689,
+        "w": 163,
+        "h": 137
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 137
+      },
+      "sourceSize": {
+        "w": 163,
+        "h": 137
+      },
+      "detectedContentBounds": {
+        "x": 39,
+        "y": 693,
+        "w": 155,
+        "h": 129
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_barrel": {
+      "frame": {
+        "x": 238,
+        "y": 680,
+        "w": 130,
+        "h": 144
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 130,
+        "h": 144
+      },
+      "sourceSize": {
+        "w": 130,
+        "h": 144
+      },
+      "detectedContentBounds": {
+        "x": 242,
+        "y": 684,
+        "w": 122,
+        "h": 136
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_coal_crate": {
+      "frame": {
+        "x": 408,
+        "y": 689,
+        "w": 162,
+        "h": 139
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 162,
+        "h": 139
+      },
+      "sourceSize": {
+        "w": 162,
+        "h": 139
+      },
+      "detectedContentBounds": {
+        "x": 412,
+        "y": 693,
+        "w": 154,
+        "h": 131
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_scrap_sack": {
+      "frame": {
+        "x": 589,
+        "y": 695,
+        "w": 164,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 164,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 164,
+        "h": 130
+      },
+      "detectedContentBounds": {
+        "x": 593,
+        "y": 699,
+        "w": 156,
+        "h": 122
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_scrap_pile": {
+      "frame": {
+        "x": 778,
+        "y": 708,
+        "w": 219,
+        "h": 111
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 219,
+        "h": 111
+      },
+      "sourceSize": {
+        "w": 219,
+        "h": 111
+      },
+      "detectedContentBounds": {
+        "x": 782,
+        "y": 712,
+        "w": 211,
+        "h": 103
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_vent_grate": {
+      "frame": {
+        "x": 1043,
+        "y": 695,
+        "w": 141,
+        "h": 135
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 141,
+        "h": 135
+      },
+      "sourceSize": {
+        "w": 141,
+        "h": 135
+      },
+      "detectedContentBounds": {
+        "x": 1047,
+        "y": 699,
+        "w": 133,
+        "h": 127
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_valve_wheel_stand": {
+      "frame": {
+        "x": 1225,
+        "y": 715,
+        "w": 102,
+        "h": 113
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 102,
+        "h": 113
+      },
+      "sourceSize": {
+        "w": 102,
+        "h": 113
+      },
+      "detectedContentBounds": {
+        "x": 1229,
+        "y": 719,
+        "w": 94,
+        "h": 105
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_pressure_gauge_cluster": {
+      "frame": {
+        "x": 1357,
+        "y": 692,
+        "w": 155,
+        "h": 140
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 155,
+        "h": 140
+      },
+      "sourceSize": {
+        "w": 155,
+        "h": 140
+      },
+      "detectedContentBounds": {
+        "x": 1361,
+        "y": 696,
+        "w": 147,
+        "h": 132
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_mossy_boulder": {
+      "frame": {
+        "x": 24,
+        "y": 839,
+        "w": 172,
+        "h": 138
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 172,
+        "h": 138
+      },
+      "sourceSize": {
+        "w": 172,
+        "h": 138
+      },
+      "detectedContentBounds": {
+        "x": 28,
+        "y": 843,
+        "w": 164,
+        "h": 130
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_rock_pile": {
+      "frame": {
+        "x": 203,
+        "y": 858,
+        "w": 167,
+        "h": 119
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 167,
+        "h": 119
+      },
+      "sourceSize": {
+        "w": 167,
+        "h": 119
+      },
+      "detectedContentBounds": {
+        "x": 207,
+        "y": 862,
+        "w": 159,
+        "h": 111
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_fern_clump": {
+      "frame": {
+        "x": 384,
+        "y": 857,
+        "w": 153,
+        "h": 120
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 153,
+        "h": 120
+      },
+      "sourceSize": {
+        "w": 153,
+        "h": 120
+      },
+      "detectedContentBounds": {
+        "x": 388,
+        "y": 861,
+        "w": 145,
+        "h": 112
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_mushroom_cluster": {
+      "frame": {
+        "x": 552,
+        "y": 860,
+        "w": 166,
+        "h": 119
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 166,
+        "h": 119
+      },
+      "sourceSize": {
+        "w": 166,
+        "h": 119
+      },
+      "detectedContentBounds": {
+        "x": 556,
+        "y": 864,
+        "w": 158,
+        "h": 111
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_berry_bush": {
+      "frame": {
+        "x": 738,
+        "y": 856,
+        "w": 164,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 164,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 164,
+        "h": 126
+      },
+      "detectedContentBounds": {
+        "x": 742,
+        "y": 860,
+        "w": 156,
+        "h": 118
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "prop_vine_curl": {
+      "frame": {
+        "x": 920,
+        "y": 848,
+        "w": 82,
+        "h": 131
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 82,
+        "h": 131
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 131
+      },
+      "detectedContentBounds": {
+        "x": 924,
+        "y": 852,
+        "w": 74,
+        "h": 123
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "pickup_gear_large": {
+      "frame": {
+        "x": 1014,
+        "y": 885,
+        "w": 102,
+        "h": 102
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 102,
+        "h": 102
+      },
+      "sourceSize": {
+        "w": 102,
+        "h": 102
+      },
+      "detectedContentBounds": {
+        "x": 1018,
+        "y": 889,
+        "w": 94,
+        "h": 94
+      },
+      "role": "pickup",
+      "collision": {
+        "kind": "sensor"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "pickup_gear_small": {
+      "frame": {
+        "x": 1124,
+        "y": 913,
+        "w": 72,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 71
+      },
+      "detectedContentBounds": {
+        "x": 1128,
+        "y": 917,
+        "w": 64,
+        "h": 63
+      },
+      "role": "pickup",
+      "collision": {
+        "kind": "sensor"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "pickup_brass_ring": {
+      "frame": {
+        "x": 1206,
+        "y": 918,
+        "w": 67,
+        "h": 67
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 67,
+        "h": 67
+      },
+      "sourceSize": {
+        "w": 67,
+        "h": 67
+      },
+      "detectedContentBounds": {
+        "x": 1210,
+        "y": 922,
+        "w": 59,
+        "h": 59
+      },
+      "role": "pickup",
+      "collision": {
+        "kind": "sensor"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "pickup_valve_wheel": {
+      "frame": {
+        "x": 1279,
+        "y": 902,
+        "w": 82,
+        "h": 83
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 82,
+        "h": 83
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 83
+      },
+      "detectedContentBounds": {
+        "x": 1283,
+        "y": 906,
+        "w": 74,
+        "h": 75
+      },
+      "role": "pickup",
+      "collision": {
+        "kind": "sensor"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "pickup_glowing_bolt": {
+      "frame": {
+        "x": 1375,
+        "y": 888,
+        "w": 65,
+        "h": 93
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 65,
+        "h": 93
+      },
+      "sourceSize": {
+        "w": 65,
+        "h": 93
+      },
+      "detectedContentBounds": {
+        "x": 1379,
+        "y": 892,
+        "w": 57,
+        "h": 85
+      },
+      "role": "pickup",
+      "collision": {
+        "kind": "sensor"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "pickup_scrap_token": {
+      "frame": {
+        "x": 1434,
+        "y": 910,
+        "w": 70,
+        "h": 73
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 70,
+        "h": 73
+      },
+      "sourceSize": {
+        "w": 70,
+        "h": 73
+      },
+      "detectedContentBounds": {
+        "x": 1438,
+        "y": 914,
+        "w": 62,
+        "h": 65
+      },
+      "role": "pickup",
+      "collision": {
+        "kind": "sensor"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "id": "first-level",
+  "title": "First Chute Run",
+  "width": 4200,
+  "height": 720,
+  "backgroundSet": "v2",
+  "surfaceY": 548,
+  "playerStart": {
+    "x": 180,
+    "y": 548
+  },
+  "sections": [
+    {
+      "id": "warmup",
+      "label": "Warmup",
+      "start": 0,
+      "end": 1300,
+      "intent": "learn movement and collect visible scrap"
+    },
+    {
+      "id": "upper-route",
+      "label": "Upper Route",
+      "start": 1300,
+      "end": 2700,
+      "intent": "optional platform pickups without enemy pressure"
+    },
+    {
+      "id": "exit",
+      "label": "Exit Stretch",
+      "start": 2700,
+      "end": 4200,
+      "intent": "finish with a final scrap pickup before the chute"
+    }
+  ],
+  "platforms": [
+    {
+      "id": "p-000",
+      "frame": "ground_long_mossy_wall",
+      "x": -180,
+      "y": 548
+    },
+    {
+      "id": "p-001",
+      "frame": "ground_long_mossy_wall",
+      "x": 230,
+      "y": 548
+    },
+    {
+      "id": "p-002",
+      "frame": "ground_medium_mossy",
+      "x": 640,
+      "y": 548
+    },
+    {
+      "id": "p-003",
+      "frame": "ground_long_mossy_wall",
+      "x": 900,
+      "y": 548
+    },
+    {
+      "id": "p-004",
+      "frame": "ground_long_mossy_wall",
+      "x": 1320,
+      "y": 548
+    },
+    {
+      "id": "p-005",
+      "frame": "ground_medium_mossy",
+      "x": 1735,
+      "y": 548
+    },
+    {
+      "id": "p-006",
+      "frame": "ground_long_mossy_wall",
+      "x": 1995,
+      "y": 548
+    },
+    {
+      "id": "p-007",
+      "frame": "ground_long_mossy_wall",
+      "x": 2415,
+      "y": 548
+    },
+    {
+      "id": "p-008",
+      "frame": "ground_medium_mossy",
+      "x": 2828,
+      "y": 548
+    },
+    {
+      "id": "p-009",
+      "frame": "ground_long_mossy_wall",
+      "x": 3090,
+      "y": 548
+    },
+    {
+      "id": "p-010",
+      "frame": "ground_long_mossy_wall",
+      "x": 3525,
+      "y": 547
+    },
+    {
+      "id": "p-upper-00",
+      "frame": "platform_medium_ledge",
+      "x": 1440,
+      "y": 410
+    },
+    {
+      "id": "p-upper-01",
+      "frame": "platform_small_ledge",
+      "x": 2110,
+      "y": 384
+    },
+    {
+      "id": "platform-mpfex2uy",
+      "frame": "ground_long_mossy_wall",
+      "x": 3805,
+      "y": 554
+    }
+  ],
+  "pickups": [
+    {
+      "id": "gear-01",
+      "frame": "pickup_gear_small",
+      "x": 640,
+      "y": 476,
+      "value": 1
+    },
+    {
+      "id": "gear-02",
+      "frame": "pickup_gear_small",
+      "x": 1240,
+      "y": 476,
+      "value": 1
+    },
+    {
+      "id": "gear-03",
+      "frame": "pickup_gear_small",
+      "x": 1560,
+      "y": 338,
+      "value": 1
+    },
+    {
+      "id": "gear-04",
+      "frame": "pickup_gear_small",
+      "x": 2180,
+      "y": 314,
+      "value": 1
+    },
+    {
+      "id": "gear-05",
+      "frame": "pickup_gear_small",
+      "x": 3330,
+      "y": 476,
+      "value": 1
+    }
+  ],
+  "props": [
+    {
+      "id": "prop-hut-01",
+      "frame": "prop_mossy_hut_large",
+      "x": 870,
+      "y": 562,
+      "depth": 18
+    },
+    {
+      "id": "prop-fern-01",
+      "frame": "prop_fern_clump",
+      "x": 2920,
+      "y": 548,
+      "depth": 24
+    },
+    {
+      "id": "prop-mpfh92wj",
+      "frame": "prop_fence_segment",
+      "x": 463,
+      "y": 554,
+      "depth": 24
+    }
+  ],
+  "enemies": [],
+  "exits": [
+    {
+      "id": "exit-1",
+      "frame": "exit_chute",
+      "x": 3844,
+      "y": 605
+    }
+  ],
+  "finish": {
+    "x": 3844,
+    "y": 605
+  },
+  "savedAt": "2026-05-21T12:39:02.902Z"
+}

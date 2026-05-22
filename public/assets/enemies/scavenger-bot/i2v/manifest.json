@@ -1,0 +1,217 @@
+{
+  "version": 2,
+  "enemyId": "scavenger-bot",
+  "variant": "i2v",
+  "displayName": "Scavenger Bot",
+  "direction": "w",
+  "frame": {
+    "width": 256,
+    "height": 256
+  },
+  "anchor": {
+    "x": 128,
+    "y": 255
+  },
+  "source": "runs/20260518-212924-scavenger-bot-w-anchor-v2",
+  "generation": "Grok Imagine image-to-video, processed through Spriterrific fixed-canvas post-selection.",
+  "promotionStatus": "fixed-canvas-ready",
+  "publicAssetReady": true,
+  "processingContract": {
+    "layoutMode": "preserve-canvas",
+    "pixelSnap": false,
+    "foregroundRecovery": false,
+    "runtimeFinalization": "preserve-motion",
+    "note": "I2V frames were treated as equal-size video frames and processed without foreground bbox fitting. Idle has an additional vertical registration pass to match the promoted active animations."
+  },
+  "animations": {
+    "idle": {
+      "spritesheet": "i2v/idle.png",
+      "previewGif": "i2v/idle.gif",
+      "frames": 10,
+      "fps": 6,
+      "columns": 5,
+      "rows": 2,
+      "repeat": -1,
+      "source": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v1/idle-w-grok-i2v/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+      "sourceDetail": "Fixed-canvas I2V post-selection export; no foreground recovery or per-frame bbox normalization.",
+      "pixelSnap": false,
+      "anchor": {
+        "x": 128,
+        "y": 255
+      },
+      "promotionStatus": "fixed-canvas-ready",
+      "publicAssetReady": true,
+      "processingContract": {
+        "layoutMode": "preserve-canvas",
+        "pixelSnap": false,
+        "foregroundRecovery": false,
+        "runtimeFinalization": "preserve-motion",
+        "note": "Fixed-canvas export with a later vertical-only registration pass."
+      },
+      "registrationFix": {
+        "sourceRun": "runs/20260519-131045-scavenger-bot-idle-registration",
+        "method": "vertical-shift-only",
+        "targetVisibleBottomY": 201,
+        "framesAdjusted": 10
+      }
+    },
+    "walk": {
+      "spritesheet": "i2v/walk.png",
+      "previewGif": "i2v/walk.gif",
+      "frames": 10,
+      "fps": 10,
+      "columns": 5,
+      "rows": 2,
+      "repeat": -1,
+      "source": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v6/walk-w-grok-2s-10f/post-selection/fixed-canvas-no-pixelsnap-20260519-134102/export",
+      "sourceDetail": "Fixed-canvas I2V post-selection export from refreshed 20260519-134102 frame-picker selection; no foreground recovery or per-frame bbox normalization.",
+      "pixelSnap": false,
+      "anchor": {
+        "x": 128,
+        "y": 255
+      },
+      "promotionStatus": "fixed-canvas-ready",
+      "publicAssetReady": true,
+      "processingContract": {
+        "layoutMode": "preserve-canvas",
+        "pixelSnap": false,
+        "foregroundRecovery": false,
+        "runtimeFinalization": "preserve-motion",
+        "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, refreshed from the 20260519-134102 frame-picker selection, and finalized with zero frame adjustments."
+      },
+      "framePicker": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v6/walk-w-grok-2s-10f/frame-picker/20260519-134102",
+      "runtimeFinalization": {
+        "anchorPolicy": "preserve-motion",
+        "targetBottomY": 255,
+        "targetCenterX": 128,
+        "framesAdjusted": 0,
+        "sourceRun": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v6/walk-w-grok-2s-10f/post-selection/fixed-canvas-no-pixelsnap-20260519-134102/export/finalize-runtime.json"
+      }
+    },
+    "run": {
+      "spritesheet": "i2v/run.png",
+      "previewGif": "i2v/run.gif",
+      "frames": 8,
+      "fps": 12,
+      "columns": 5,
+      "rows": 2,
+      "repeat": -1,
+      "source": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v2/run-w-grok-direct/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+      "sourceDetail": "Fixed-canvas I2V post-selection export; no foreground recovery or per-frame bbox normalization.",
+      "pixelSnap": false,
+      "anchor": {
+        "x": 128,
+        "y": 255
+      },
+      "promotionStatus": "fixed-canvas-ready",
+      "publicAssetReady": true,
+      "processingContract": {
+        "layoutMode": "preserve-canvas",
+        "pixelSnap": false,
+        "foregroundRecovery": false,
+        "runtimeFinalization": "preserve-motion",
+        "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+      }
+    },
+    "attack": {
+      "spritesheet": "i2v/attack.png",
+      "previewGif": "i2v/attack.gif",
+      "frames": 8,
+      "fps": 10,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v5/attack-w-grok-rerun/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+      "sourceDetail": "Fixed-canvas I2V post-selection export; no foreground recovery or per-frame bbox normalization.",
+      "pixelSnap": false,
+      "anchor": {
+        "x": 128,
+        "y": 255
+      },
+      "promotionStatus": "fixed-canvas-ready",
+      "publicAssetReady": true,
+      "processingContract": {
+        "layoutMode": "preserve-canvas",
+        "pixelSnap": false,
+        "foregroundRecovery": false,
+        "runtimeFinalization": "preserve-motion",
+        "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+      }
+    },
+    "hurt": {
+      "spritesheet": "i2v/hurt.png",
+      "previewGif": "i2v/hurt.gif",
+      "frames": 6,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v2/hurt-w-grok-direct/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+      "sourceDetail": "Fixed-canvas I2V post-selection export; no foreground recovery or per-frame bbox normalization.",
+      "pixelSnap": false,
+      "anchor": {
+        "x": 128,
+        "y": 255
+      },
+      "promotionStatus": "fixed-canvas-ready",
+      "publicAssetReady": true,
+      "processingContract": {
+        "layoutMode": "preserve-canvas",
+        "pixelSnap": false,
+        "foregroundRecovery": false,
+        "runtimeFinalization": "preserve-motion",
+        "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+      }
+    },
+    "death": {
+      "spritesheet": "i2v/death.png",
+      "previewGif": "i2v/death.gif",
+      "frames": 10,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v2/death-w-grok-direct/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+      "sourceDetail": "Fixed-canvas I2V post-selection export; no foreground recovery or per-frame bbox normalization.",
+      "pixelSnap": false,
+      "anchor": {
+        "x": 128,
+        "y": 255
+      },
+      "promotionStatus": "fixed-canvas-ready",
+      "publicAssetReady": true,
+      "processingContract": {
+        "layoutMode": "preserve-canvas",
+        "pixelSnap": false,
+        "foregroundRecovery": false,
+        "runtimeFinalization": "preserve-motion",
+        "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+      }
+    },
+    "jump": {
+      "spritesheet": "i2v/jump.png",
+      "previewGif": "i2v/jump.gif",
+      "frames": 6,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260518-212924-scavenger-bot-w-anchor-v2/actions-v2/jump-w-grok-direct/post-selection/fixed-canvas-no-pixelsnap-v1/export",
+      "sourceDetail": "Fixed-canvas I2V post-selection export; no foreground recovery or per-frame bbox normalization.",
+      "pixelSnap": false,
+      "anchor": {
+        "x": 128,
+        "y": 255
+      },
+      "promotionStatus": "fixed-canvas-ready",
+      "publicAssetReady": true,
+      "processingContract": {
+        "layoutMode": "preserve-canvas",
+        "pixelSnap": false,
+        "foregroundRecovery": false,
+        "runtimeFinalization": "preserve-motion",
+        "note": "I2V frames were treated as equal-size video frames, processed without foreground bbox fitting, and finalized with zero frame adjustments."
+      }
+    }
+  }
+}

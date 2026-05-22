@@ -1,0 +1,1044 @@
+{
+  "meta": {
+    "app": "robin-chute",
+    "type": "Phaser variable-frame atlas metadata",
+    "image": "platforming-elements-atlas-alpha-1536x1024.png",
+    "source": "source/platforming-atlas-chroma-source.png",
+    "size": {
+      "w": 1536,
+      "h": 1024
+    },
+    "chromaKey": "#ff00ff",
+    "gameResolutionReference": {
+      "w": 1280,
+      "h": 720
+    },
+    "characterFrameReference": {
+      "w": 256,
+      "h": 256,
+      "note": "Scale reference only; atlas frames are variable sized."
+    },
+    "frameCount": 29,
+    "notes": [
+      "No character sprites are included.",
+      "Frames are variable sized and should be tuned with manual collision shapes.",
+      "The magenta backing is intentional for local chroma extraction or tooling."
+    ]
+  },
+  "frames": {
+    "ground_long_mossy_wall": {
+      "frame": {
+        "x": 5,
+        "y": 12,
+        "w": 452,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 452,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 452,
+        "h": 132
+      },
+      "detectedContentBounds": {
+        "x": 9,
+        "y": 16,
+        "w": 444,
+        "h": 124
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "ground_medium_mossy": {
+      "frame": {
+        "x": 466,
+        "y": 25,
+        "w": 303,
+        "h": 98
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 303,
+        "h": 98
+      },
+      "sourceSize": {
+        "w": 303,
+        "h": 98
+      },
+      "detectedContentBounds": {
+        "x": 470,
+        "y": 29,
+        "w": 295,
+        "h": 90
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "ground_short_mossy": {
+      "frame": {
+        "x": 787,
+        "y": 34,
+        "w": 214,
+        "h": 87
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 214,
+        "h": 87
+      },
+      "sourceSize": {
+        "w": 214,
+        "h": 87
+      },
+      "detectedContentBounds": {
+        "x": 791,
+        "y": 38,
+        "w": 206,
+        "h": 79
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "ground_left_end_cap": {
+      "frame": {
+        "x": 1020,
+        "y": 23,
+        "w": 135,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 135,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 135,
+        "h": 110
+      },
+      "detectedContentBounds": {
+        "x": 1024,
+        "y": 27,
+        "w": 127,
+        "h": 102
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "ground_right_end_cap": {
+      "frame": {
+        "x": 1169,
+        "y": 26,
+        "w": 129,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 129,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 129,
+        "h": 110
+      },
+      "detectedContentBounds": {
+        "x": 1173,
+        "y": 30,
+        "w": 121,
+        "h": 102
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "ground_broken_stack": {
+      "frame": {
+        "x": 1311,
+        "y": 36,
+        "w": 221,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 221,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 221,
+        "h": 100
+      },
+      "detectedContentBounds": {
+        "x": 1315,
+        "y": 40,
+        "w": 213,
+        "h": 92
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "platform_small_ledge": {
+      "frame": {
+        "x": 40,
+        "y": 173,
+        "w": 177,
+        "h": 89
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 177,
+        "h": 89
+      },
+      "sourceSize": {
+        "w": 177,
+        "h": 89
+      },
+      "detectedContentBounds": {
+        "x": 44,
+        "y": 177,
+        "w": 169,
+        "h": 81
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "platform_medium_ledge": {
+      "frame": {
+        "x": 291,
+        "y": 176,
+        "w": 310,
+        "h": 95
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 310,
+        "h": 95
+      },
+      "sourceSize": {
+        "w": 310,
+        "h": 95
+      },
+      "detectedContentBounds": {
+        "x": 295,
+        "y": 180,
+        "w": 302,
+        "h": 87
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "platform_long_ledge": {
+      "frame": {
+        "x": 646,
+        "y": 181,
+        "w": 568,
+        "h": 91
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 568,
+        "h": 91
+      },
+      "sourceSize": {
+        "w": 568,
+        "h": 91
+      },
+      "detectedContentBounds": {
+        "x": 650,
+        "y": 185,
+        "w": 560,
+        "h": 83
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "platform_hanging_rope": {
+      "frame": {
+        "x": 1243,
+        "y": 148,
+        "w": 259,
+        "h": 166
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 259,
+        "h": 166
+      },
+      "sourceSize": {
+        "w": 259,
+        "h": 166
+      },
+      "detectedContentBounds": {
+        "x": 1247,
+        "y": 152,
+        "w": 251,
+        "h": 158
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "bridge_rope_planks": {
+      "frame": {
+        "x": 29,
+        "y": 306,
+        "w": 336,
+        "h": 142
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 336,
+        "h": 142
+      },
+      "sourceSize": {
+        "w": 336,
+        "h": 142
+      },
+      "detectedContentBounds": {
+        "x": 33,
+        "y": 310,
+        "w": 328,
+        "h": 134
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "bridge_truss": {
+      "frame": {
+        "x": 384,
+        "y": 332,
+        "w": 312,
+        "h": 108
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 108
+      },
+      "sourceSize": {
+        "w": 312,
+        "h": 108
+      },
+      "detectedContentBounds": {
+        "x": 388,
+        "y": 336,
+        "w": 304,
+        "h": 100
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "platform_braced_under": {
+      "frame": {
+        "x": 701,
+        "y": 323,
+        "w": 273,
+        "h": 122
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 273,
+        "h": 122
+      },
+      "sourceSize": {
+        "w": 273,
+        "h": 122
+      },
+      "detectedContentBounds": {
+        "x": 705,
+        "y": 327,
+        "w": 265,
+        "h": 114
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "support_arch_left": {
+      "frame": {
+        "x": 1010,
+        "y": 310,
+        "w": 222,
+        "h": 161
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 222,
+        "h": 161
+      },
+      "sourceSize": {
+        "w": 222,
+        "h": 161
+      },
+      "detectedContentBounds": {
+        "x": 1014,
+        "y": 314,
+        "w": 214,
+        "h": 153
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "support_arch_right": {
+      "frame": {
+        "x": 1311,
+        "y": 314,
+        "w": 157,
+        "h": 177
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 157,
+        "h": 177
+      },
+      "sourceSize": {
+        "w": 157,
+        "h": 177
+      },
+      "detectedContentBounds": {
+        "x": 1315,
+        "y": 318,
+        "w": 149,
+        "h": 169
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "pipe_column_tall": {
+      "frame": {
+        "x": 314,
+        "y": 452,
+        "w": 108,
+        "h": 196
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 108,
+        "h": 196
+      },
+      "sourceSize": {
+        "w": 108,
+        "h": 196
+      },
+      "detectedContentBounds": {
+        "x": 318,
+        "y": 456,
+        "w": 100,
+        "h": 188
+      },
+      "role": "platforming-prop",
+      "collision": {
+        "kind": "solid-or-prop",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "pipe_column_short": {
+      "frame": {
+        "x": 75,
+        "y": 508,
+        "w": 125,
+        "h": 142
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 125,
+        "h": 142
+      },
+      "sourceSize": {
+        "w": 125,
+        "h": 142
+      },
+      "detectedContentBounds": {
+        "x": 79,
+        "y": 512,
+        "w": 117,
+        "h": 134
+      },
+      "role": "platforming-prop",
+      "collision": {
+        "kind": "solid-or-prop",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "pipe_elbow_floor": {
+      "frame": {
+        "x": 507,
+        "y": 518,
+        "w": 144,
+        "h": 133
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 133
+      },
+      "sourceSize": {
+        "w": 144,
+        "h": 133
+      },
+      "detectedContentBounds": {
+        "x": 511,
+        "y": 522,
+        "w": 136,
+        "h": 125
+      },
+      "role": "platforming-prop",
+      "collision": {
+        "kind": "solid-or-prop",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "pipe_elbow_wall": {
+      "frame": {
+        "x": 762,
+        "y": 481,
+        "w": 141,
+        "h": 156
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 141,
+        "h": 156
+      },
+      "sourceSize": {
+        "w": 141,
+        "h": 156
+      },
+      "detectedContentBounds": {
+        "x": 766,
+        "y": 485,
+        "w": 133,
+        "h": 148
+      },
+      "role": "platforming-prop",
+      "collision": {
+        "kind": "solid-or-prop",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "ramp_mossy_up": {
+      "frame": {
+        "x": 967,
+        "y": 502,
+        "w": 254,
+        "h": 147
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 254,
+        "h": 147
+      },
+      "sourceSize": {
+        "w": 254,
+        "h": 147
+      },
+      "detectedContentBounds": {
+        "x": 971,
+        "y": 506,
+        "w": 246,
+        "h": 139
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "ramp_mossy_down": {
+      "frame": {
+        "x": 1244,
+        "y": 508,
+        "w": 248,
+        "h": 143
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 248,
+        "h": 143
+      },
+      "sourceSize": {
+        "w": 248,
+        "h": 143
+      },
+      "detectedContentBounds": {
+        "x": 1248,
+        "y": 512,
+        "w": 240,
+        "h": 135
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "chute_slide_straight": {
+      "frame": {
+        "x": 51,
+        "y": 673,
+        "w": 470,
+        "h": 125
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 470,
+        "h": 125
+      },
+      "sourceSize": {
+        "w": 470,
+        "h": 125
+      },
+      "detectedContentBounds": {
+        "x": 55,
+        "y": 677,
+        "w": 462,
+        "h": 117
+      },
+      "role": "platforming-prop",
+      "collision": {
+        "kind": "solid-or-prop",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "chute_slide_curved": {
+      "frame": {
+        "x": 593,
+        "y": 661,
+        "w": 325,
+        "h": 150
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 325,
+        "h": 150
+      },
+      "sourceSize": {
+        "w": 325,
+        "h": 150
+      },
+      "detectedContentBounds": {
+        "x": 597,
+        "y": 665,
+        "w": 317,
+        "h": 142
+      },
+      "role": "platforming-prop",
+      "collision": {
+        "kind": "solid-or-prop",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "chute_mouth_connector": {
+      "frame": {
+        "x": 980,
+        "y": 664,
+        "w": 314,
+        "h": 142
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 142
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 142
+      },
+      "detectedContentBounds": {
+        "x": 984,
+        "y": 668,
+        "w": 306,
+        "h": 134
+      },
+      "role": "platforming-prop",
+      "collision": {
+        "kind": "solid-or-prop",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "wall_block_large": {
+      "frame": {
+        "x": 36,
+        "y": 812,
+        "w": 289,
+        "h": 187
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 289,
+        "h": 187
+      },
+      "sourceSize": {
+        "w": 289,
+        "h": 187
+      },
+      "detectedContentBounds": {
+        "x": 40,
+        "y": 816,
+        "w": 281,
+        "h": 179
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "broken_scrap_hazard": {
+      "frame": {
+        "x": 1194,
+        "y": 825,
+        "w": 290,
+        "h": 172
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 290,
+        "h": 172
+      },
+      "sourceSize": {
+        "w": 290,
+        "h": 172
+      },
+      "detectedContentBounds": {
+        "x": 1198,
+        "y": 829,
+        "w": 282,
+        "h": 164
+      },
+      "role": "platforming-prop",
+      "collision": {
+        "kind": "solid-or-prop",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "step_block": {
+      "frame": {
+        "x": 361,
+        "y": 845,
+        "w": 179,
+        "h": 152
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 179,
+        "h": 152
+      },
+      "sourceSize": {
+        "w": 179,
+        "h": 152
+      },
+      "detectedContentBounds": {
+        "x": 365,
+        "y": 849,
+        "w": 171,
+        "h": 144
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "wall_block_medium": {
+      "frame": {
+        "x": 606,
+        "y": 840,
+        "w": 249,
+        "h": 156
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 249,
+        "h": 156
+      },
+      "sourceSize": {
+        "w": 249,
+        "h": 156
+      },
+      "detectedContentBounds": {
+        "x": 610,
+        "y": 844,
+        "w": 241,
+        "h": 148
+      },
+      "role": "platforming",
+      "collision": {
+        "kind": "solid",
+        "shape": "manual"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "scrap_wall_block": {
+      "frame": {
+        "x": 914,
+        "y": 849,
+        "w": 243,
+        "h": 148
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 243,
+        "h": 148
+      },
+      "sourceSize": {
+        "w": 243,
+        "h": 148
+      },
+      "detectedContentBounds": {
+        "x": 918,
+        "y": 853,
+        "w": 235,
+        "h": 140
+      },
+      "role": "static-prop",
+      "collision": {
+        "kind": "none"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    }
+  }
+}

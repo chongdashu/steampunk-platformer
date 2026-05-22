@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "id": "playground-level",
+  "title": "Character Playground Loop",
+  "width": 1280,
+  "height": 720,
+  "backgroundSet": "v2",
+  "surfaceY": 548,
+  "playerStart": {
+    "x": 180,
+    "y": 548
+  },
+  "sections": [
+    {
+      "id": "playground-loop",
+      "label": "Playground Loop",
+      "start": 0,
+      "end": 1280,
+      "intent": "single-screen movement, combat, platform, and exit interaction test"
+    }
+  ],
+  "platforms": [
+    {
+      "id": "pg-floor-00",
+      "frame": "ground_long_mossy_wall",
+      "x": -120,
+      "y": 548
+    },
+    {
+      "id": "pg-floor-01",
+      "frame": "ground_medium_mossy",
+      "x": 302,
+      "y": 548
+    },
+    {
+      "id": "pg-floor-02",
+      "frame": "ground_short_mossy",
+      "x": 575,
+      "y": 548
+    },
+    {
+      "id": "pg-floor-03",
+      "frame": "ground_long_mossy_wall",
+      "x": 759,
+      "y": 548
+    },
+    {
+      "id": "pg-floor-04",
+      "frame": "ground_medium_mossy",
+      "x": 1181,
+      "y": 548
+    },
+    {
+      "id": "pg-platform-00",
+      "frame": "platform_medium_ledge",
+      "x": 240,
+      "y": 410
+    },
+    {
+      "id": "pg-platform-01",
+      "frame": "platform_long_ledge",
+      "x": 486,
+      "y": 325
+    }
+  ],
+  "pickups": [],
+  "props": [
+    {
+      "id": "prop-mpfh42vy",
+      "frame": "prop_lantern_post",
+      "x": 980,
+      "y": 328,
+      "depth": 24
+    }
+  ],
+  "enemies": [
+    {
+      "id": "pg-scavenger-01",
+      "type": "scavenger-bot",
+      "x": 809,
+      "y": 304,
+      "health": 5,
+      "cooldownSeconds": 1,
+      "projectileSpeed": 315,
+      "shootingRange": 420,
+      "projectileDamage": 1
+    },
+    {
+      "id": "pg-turret-01",
+      "type": "pipe-spitting-turret",
+      "x": 912,
+      "y": 545,
+      "health": 3,
+      "cooldownSeconds": 1,
+      "projectileSpeed": 315,
+      "shootingRange": 620,
+      "projectileDamage": 1
+    }
+  ],
+  "exits": [
+    {
+      "id": "pg-exit-01",
+      "frame": "exit_chute",
+      "x": 1150,
+      "y": 606
+    }
+  ],
+  "finish": {
+    "x": 1150,
+    "y": 606
+  },
+  "savedAt": "2026-05-21T12:35:55.555Z"
+}

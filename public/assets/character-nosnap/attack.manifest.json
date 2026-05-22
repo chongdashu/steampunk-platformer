@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "action": "attack",
+  "direction": "w",
+  "mode": "image",
+  "spritesheet": "attack.png",
+  "previewGif": "attack.gif",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 5,
+  "rows": 1,
+  "frames": 4,
+  "fps": 10,
+  "anchor": {
+    "x": 128,
+    "y": 255
+  },
+  "sourceRun": "runs/robin-chute-v3-stills-from-resnap-02-k16/attack-w/generated/sheet.png",
+  "pixelSnap": false,
+  "sourceDetail": "image pose-board rebuild without pixel snap, curated frames 2,3,5,6",
+  "curatedFrameOrder": [
+    2,
+    3,
+    5,
+    6
+  ],
+  "runtimeFinalization": {
+    "anchorPolicy": "grounded",
+    "requestedAnchorPolicy": "auto",
+    "targetBottomY": 255,
+    "targetCenterX": 128,
+    "framesAdjusted": 0,
+    "report": "finalize-runtime.json"
+  },
+  "sourceManifest": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/attack/manifest.json"
+}

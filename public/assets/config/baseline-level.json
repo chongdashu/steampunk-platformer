@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "baselineLevel": {
+    "gapCount": 3,
+    "gapWidth": 170,
+    "aiEnabled": true,
+    "showHitboxes": true,
+    "useCharacterSprite": true,
+    "characterVariant": "snap"
+  }
+}

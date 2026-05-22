@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "id": "level-4-pressure-yard",
+  "title": "Pressure Yard",
+  "width": 5900,
+  "height": 720,
+  "backgroundSet": "v2",
+  "surfaceY": 548,
+  "playerStart": { "x": 180, "y": 548 },
+  "sections": [
+    { "id": "first-watch", "label": "First Watch", "start": 0, "end": 1900, "intent": "early turret with safe space to attack" },
+    { "id": "double-patrol", "label": "Double Patrol", "start": 1900, "end": 4300, "intent": "two scavengers with turret pressure between them" },
+    { "id": "exit", "label": "Exit Stretch", "start": 4300, "end": 5900, "intent": "final turret guards the chute lane" }
+  ],
+  "platforms": [
+    { "id": "p-000", "frame": "ground_long_mossy_wall", "x": -180, "y": 548 },
+    { "id": "p-001", "frame": "ground_long_mossy_wall", "x": 230, "y": 548 },
+    { "id": "p-002", "frame": "ground_long_mossy_wall", "x": 650, "y": 548 },
+    { "id": "p-003", "frame": "ground_long_mossy_wall", "x": 1070, "y": 548 },
+    { "id": "p-004", "frame": "ground_medium_mossy", "x": 1490, "y": 548 },
+    { "id": "p-005", "frame": "ground_long_mossy_wall", "x": 1750, "y": 548 },
+    { "id": "p-006", "frame": "ground_long_mossy_wall", "x": 2170, "y": 548 },
+    { "id": "p-007", "frame": "ground_medium_mossy", "x": 2590, "y": 548 },
+    { "id": "p-008", "frame": "ground_long_mossy_wall", "x": 2850, "y": 548 },
+    { "id": "p-009", "frame": "ground_long_mossy_wall", "x": 3270, "y": 548 },
+    { "id": "p-010", "frame": "ground_long_mossy_wall", "x": 3690, "y": 548 },
+    { "id": "p-011", "frame": "ground_medium_mossy", "x": 4110, "y": 548 },
+    { "id": "p-012", "frame": "ground_long_mossy_wall", "x": 4370, "y": 548 },
+    { "id": "p-013", "frame": "ground_long_mossy_wall", "x": 4790, "y": 548 },
+    { "id": "p-014", "frame": "ground_long_mossy_wall", "x": 5210, "y": 548 },
+    { "id": "p-upper-00", "frame": "platform_medium_ledge", "x": 1240, "y": 405 },
+    { "id": "p-upper-01", "frame": "platform_small_ledge", "x": 3860, "y": 398 }
+  ],
+  "pickups": [
+    { "id": "gear-01", "frame": "pickup_gear_small", "x": 760, "y": 476, "value": 1 },
+    { "id": "gear-02", "frame": "pickup_gear_small", "x": 1390, "y": 333, "value": 1 },
+    { "id": "gear-03", "frame": "pickup_gear_small", "x": 2460, "y": 476, "value": 1 },
+    { "id": "gear-04", "frame": "pickup_gear_small", "x": 3925, "y": 326, "value": 1 },
+    { "id": "gear-05", "frame": "pickup_gear_small", "x": 5070, "y": 476, "value": 1 }
+  ],
+  "props": [
+    { "id": "prop-tank-01", "frame": "prop_brass_tank_tall", "x": 930, "y": 548, "depth": 18 },
+    { "id": "prop-sack-01", "frame": "prop_scrap_sack", "x": 3620, "y": 548, "depth": 24 }
+  ],
+  "enemies": [
+    { "id": "turret-01", "type": "pipe-spitting-turret", "x": 1800, "y": 548, "health": 3, "cooldownSeconds": 1.35, "projectileSpeed": 335, "shootingRange": 650, "projectileDamage": 1 },
+    { "id": "scavenger-01", "type": "scavenger-bot", "x": 2500, "y": 548, "health": 5, "cooldownSeconds": 1.05, "projectileSpeed": 315, "shootingRange": 420, "projectileDamage": 1 },
+    { "id": "turret-02", "type": "pipe-spitting-turret", "x": 3300, "y": 548, "health": 3, "cooldownSeconds": 1.25, "projectileSpeed": 345, "shootingRange": 690, "projectileDamage": 1 },
+    { "id": "scavenger-02", "type": "scavenger-bot", "x": 4100, "y": 548, "health": 5, "cooldownSeconds": 1.05, "projectileSpeed": 315, "shootingRange": 420, "projectileDamage": 1 }
+  ],
+  "exits": [{ "id": "exit-1", "frame": "exit_chute", "x": 5660, "y": 548 }],
+  "finish": { "x": 5660, "y": 548 }
+}

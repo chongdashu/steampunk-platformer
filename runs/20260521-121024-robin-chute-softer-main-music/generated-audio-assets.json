@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-05-21T11:11:44.147Z",
+  "assets": [
+    {
+      "id": "music-main-scrapyard-loop",
+      "kind": "audio",
+      "category": "music",
+      "path": "music/main-scrapyard-loop.mp3",
+      "url": "/assets/music/main-scrapyard-loop.mp3",
+      "durationSeconds": 45,
+      "volume": 0.42,
+      "loop": true,
+      "usage": "Softer main game and playground backing loop replacing the sharper v1 track",
+      "provider": "ElevenLabs",
+      "sourceRun": "runs/20260521-121024-robin-chute-softer-main-music",
+      "generatedAt": "2026-05-21T11:11:44.147Z",
+      "prompt": "Seamlessly loopable soft whimsical steampunk scrapyard adventure music for a 2D pixel-art platformer. Gentle warm marimba and muted pizzicato strings, soft brushed percussion, rounded tuba pulses, mellow accordion pads, tiny clockwork ticks kept quiet in the background. Cozy, curious, playful, and slightly mischievous, but smooth and non-sharp. Avoid bright piercing bells, harsh chiptune leads, shrill whistles, hard transients, cymbal crashes, trailer drums, vocals, and busy high-frequency melodies. Designed to sit under platforming gameplay for a long time without fatigue.",
+      "phaser": {
+        "load": "audio",
+        "key": "music-main-scrapyard-loop"
+      }
+    }
+  ]
+}

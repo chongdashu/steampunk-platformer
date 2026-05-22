@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "action": "jump",
+  "direction": "w",
+  "mode": "image",
+  "spritesheet": "jump.png",
+  "previewGif": "jump.gif",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 5,
+  "rows": 2,
+  "frames": 6,
+  "fps": 8,
+  "anchor": {
+    "x": 128,
+    "y": 255
+  },
+  "sourceRun": "runs/robin-chute-v3-stills-from-resnap-02-k16/jump-w/generated/sheet.png",
+  "pixelSnap": false,
+  "sourceDetail": "image pose-board rebuild from existing raw sheet without pixel snap",
+  "runtimeFinalization": {
+    "anchorPolicy": "preserve-motion",
+    "requestedAnchorPolicy": "auto",
+    "targetBottomY": 255,
+    "targetCenterX": 128,
+    "framesAdjusted": 0,
+    "report": "finalize-runtime.json"
+  },
+  "sourceManifest": "runs/20260514-080929-robin-chute-v3-nosnap-spritesheets/animations/jump/manifest.json"
+}

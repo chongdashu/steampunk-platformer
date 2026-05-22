@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "enemyId": "pipe-spitting-turret",
+  "displayName": "Pipe Spitting Turret",
+  "direction": "w",
+  "frame": {
+    "width": 256,
+    "height": 256
+  },
+  "source": "runs/20260518-101352-pipe-spitting-turret-idle-grok-i2v-2s",
+  "review": "runs/20260518-101352-pipe-spitting-turret-idle-grok-i2v-2s/index.md",
+  "phaser": {
+    "basePath": "assets/enemies/turret",
+    "loader": "spritesheet",
+    "frameConfig": {
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "spacing": 0,
+      "margin": 0
+    }
+  },
+  "animations": {
+    "idle": {
+      "spritesheet": "idle.png",
+      "previewGif": "idle.gif",
+      "frames": 10,
+      "fps": 6,
+      "columns": 5,
+      "rows": 2,
+      "repeat": -1,
+      "source": "runs/20260518-101352-pipe-spitting-turret-idle-grok-i2v-2s/idle-w-locked-base-v2/post-selection/preserve-canvas-no-pixelsnap-green-clean-v3",
+      "sourceDetail": "Grok Imagine 2s video idle processed with preserve-canvas, no pixel snap, shared 720x720-to-256x256 scale, and strict green cleanup.",
+      "pixelSnap": false
+    },
+    "attack": {
+      "spritesheet": "attack.png",
+      "previewGif": "attack.gif",
+      "frames": 8,
+      "fps": 10,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260518-100432-pipe-spitting-turret-grok-i2v-v4/attack-w/post-selection/preserve-canvas-no-pixelsnap-green-clean-v1",
+      "sourceDetail": "Grok Imagine attack video from the clean turret anchor, processed with preserve-canvas shared scale and strict green cleanup to match idle/death scale.",
+      "pixelSnap": false
+    },
+    "attack-v2": {
+      "spritesheet": "attack-v2/attack.png",
+      "previewGif": "attack-v2/attack.gif",
+      "frames": 8,
+      "fps": 10,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260518-100432-pipe-spitting-turret-grok-i2v-v4/attack-w/post-selection/import-normalized-grounded-norescale-green-cleaned-v1",
+      "sourceDetail": "Grok Imagine 1s attack video processed from stable shared-scale import frames with uniform y grounding and green spill cleanup.",
+      "pixelSnap": false
+    },
+    "hurt": {
+      "spritesheet": "hurt.png",
+      "previewGif": "hurt.gif",
+      "frames": 6,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260518-100432-pipe-spitting-turret-grok-i2v-v4/hurt-w/post-selection/preserve-canvas-no-pixelsnap-green-clean-v1",
+      "sourceDetail": "Grok Imagine hurt video from the clean turret anchor, processed with preserve-canvas shared scale and strict green cleanup to reduce drift and match idle/death scale.",
+      "pixelSnap": false
+    },
+    "hurt-v2": {
+      "spritesheet": "hurt-v2/hurt.png",
+      "previewGif": "hurt-v2/hurt.gif",
+      "frames": 6,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260518-100432-pipe-spitting-turret-grok-i2v-v4/hurt-w/post-selection/import-normalized-grounded-norescale-green-cleaned-v1",
+      "sourceDetail": "Grok Imagine 1s hurt video processed from stable shared-scale import frames with uniform y grounding and green spill cleanup.",
+      "pixelSnap": false
+    },
+    "death": {
+      "spritesheet": "death.png",
+      "previewGif": "death.gif",
+      "frames": 10,
+      "fps": 8,
+      "columns": 5,
+      "rows": 2,
+      "repeat": 0,
+      "source": "runs/20260518-100432-pipe-spitting-turret-grok-i2v-v4/death-w/post-selection/anchor-bottom-194-v1",
+      "sourceDetail": "Grok Imagine 1s death video shifted without rescaling so every frame shares the turret runtime bottom anchor.",
+      "pixelSnap": false
+    }
+  },
+  "effects": {
+    "projectile": {
+      "spritesheet": "effects/cannonball-projectile.png",
+      "frames": 6,
+      "fps": 10,
+      "columns": 6,
+      "rows": 1,
+      "frame": {
+        "width": 64,
+        "height": 64
+      },
+      "collision": {
+        "width": 34,
+        "height": 28
+      },
+      "source": "runs/20260518-132315-turret-projectile-effects",
+      "sourceDetail": "Built-in imagegen cannonball sheet on magenta chroma, alpha cleaned and repacked to a 6x64 runtime sheet."
+    },
+    "muzzleSmoke": {
+      "spritesheet": "effects/muzzle-smoke.png",
+      "frames": 7,
+      "fps": 14,
+      "columns": 7,
+      "rows": 1,
+      "frame": {
+        "width": 96,
+        "height": 96
+      },
+      "source": "runs/20260518-132315-turret-projectile-effects",
+      "sourceDetail": "Built-in imagegen smoke burst sheet on magenta chroma, alpha cleaned and repacked to seven distinct runtime frames."
+    }
+  }
+}
